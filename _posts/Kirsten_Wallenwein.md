@@ -1,9 +1,6 @@
 ---
-layout: post
-title: Something else
-# image: /img/hello_world.jpeg
+title: kirsten_wallenwein
+name: Kirsten Wallenwein
 ---
 
-Muster Kranzlied
-
-
+Sample

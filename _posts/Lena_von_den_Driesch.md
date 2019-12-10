@@ -1,9 +1,6 @@
 ---
-layout: post
-title: Something else
-# image: /img/hello_world.jpeg
+title: lena_von_den_driesch
+name: Lena von den Driesch
 ---
 
-Muster Kranzlied
-
-
+Sample

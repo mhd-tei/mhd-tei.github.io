@@ -1,9 +1,6 @@
 ---
-layout: post
-title: Something else
-# image: /img/hello_world.jpeg
+title: laura_velte
+name: Laura Velte
 ---
 
-Muster Kranzlied
-
-
+Sample

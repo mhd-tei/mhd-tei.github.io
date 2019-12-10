@@ -1,9 +1,6 @@
 ---
-layout: post
-title: Something else
-# image: /img/hello_world.jpeg
+title: helge_perplies
+name: Helge Perplies
 ---
 
-Muster Kranzlied
-
-
+Sample

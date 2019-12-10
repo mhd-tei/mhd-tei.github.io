@@ -1,9 +1,6 @@
 ---
-layout: post
-title: Something else
-# image: /img/hello_world.jpeg
+title: anna_just
+name: Anna Just
 ---
 
-Muster Kranzlied
-
-
+Sample

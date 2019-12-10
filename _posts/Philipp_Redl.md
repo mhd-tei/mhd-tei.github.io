@@ -1,9 +1,6 @@
 ---
-layout: post
-title: Something else
-# image: /img/hello_world.jpeg
+title: philipp_redl
+name: Philipp Redl
 ---
 
-Muster Kranzlied
-
-
+Sample

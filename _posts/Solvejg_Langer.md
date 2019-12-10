@@ -1,9 +1,6 @@
 ---
-layout: post
-title: Something else
-# image: /img/hello_world.jpeg
+title: solveijg_langer
+name: Solverjg Langer
 ---
 
-Muster Kranzlied
-
-
+Sample

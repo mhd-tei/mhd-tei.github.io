@@ -1,9 +1,6 @@
 ---
-layout: post
-title: Something else
-# image: /img/hello_world.jpeg
+title: lea_duempelmann
+name: Lea Dümpelmann
 ---
 
-Muster Kranzlied
-
-
+Sample
