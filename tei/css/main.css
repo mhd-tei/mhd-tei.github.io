@@ -1,0 +1,79 @@
+
+* {
+    font-family: "Junicode", "Times New Roman";
+}
+
+title {
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 25px;
+}
+
+author {
+    display: block;
+    text-align: center;
+    font-size: large;
+}
+
+publisher { 
+    display: block;
+    text-align: center;
+}
+
+publisher:before {
+   content: "by: ";
+}
+
+msDesc {
+    display: block;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+msIdentifier:before {
+    content: "Source: "
+}
+
+body:before {
+    content: "Text:";
+}
+
+body {
+    margin-left: 25px;
+    margin-top: 15px;
+    display: block;
+}
+
+div {
+    margin: 100px;
+}
+
+l {
+    display: block;
+}
+
+reg {
+    display: none;
+}
+
+expan {
+    display: none;
+}
+
+lg {
+    padding: 100px;
+}
+
+l {
+    margin-left: 25px;
+}
+
+w {
+    margin-left: 5px;
+}
+
+hi {
+    color: red;
+    font-weight: bold;
+}
