@@ -58,14 +58,22 @@ use-site-title: true
 
 <div class="posts-list">
   <div class="post-entry-container">
-     <h1>Texte</h1>
+     <h1>Materialien</h1>
+  <div>
+    <ul>
+      <a href="/materials/kranz_2strophen.txt"><li>Experimentelle Übung - 2 Strophen</li></a>
+      <a href="/materials/kranzlied_transkriptionen.docx"><li>Kranzlied Transkriptionen - 3 Hss.</li></a>
+      <a href="/materials/kranzlied_regularisiert.docx"><li>Kranzlied Regularisiert - 2 Hss.</li></a>
+    </ul>
+  </div>
+  </div>
+  <div class="post-entry-container">
+     <h1>Ergebnisse</h1>
     {% for post in paginator.posts reversed  %}
   <div>
     <h3 class="post-title">{{ post.name }}</h3>
     <ul>
       <a href="/tei/paleog/{{ post.title }}"><li>XML Datei + Paleographische Visualisierung</li></a>
-    </ul>
-    <ul>
       <a href="/tei/edit/{{ post.title }}"><li>XML Datei + Edierte Visualisierung</li></a>
     </ul>
   </div>
