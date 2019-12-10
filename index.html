@@ -1,6 +1,6 @@
 ---
 layout: page
-title: TEI-Praxis Workshop Heidelber 2019
+title: TEI-Praxis Workshop Heidelberg 2019
 subtitle: Einführung in die Kodierung mittelhochdeutscher Texte
 use-site-title: true
 ---
@@ -59,12 +59,16 @@ use-site-title: true
 <div class="posts-list">
   <h2>Texte</h2>
    <div class="post-entry-container">
-     Kranzlied Muster
+     <h3>Kranzlied Muster</h3>
    </div>
   <div class="post-entry-container">
-  TeilnehmerInnen und kodierte Texte
+  <h3>Übungstexte</h3>
    </div>
-
+  <div class="post-entry-container">
+     <h3>Ergebnisse</h3>
+      {% for partic in paginator.tei %}
+      <p>1</p>
+  </div>
 </div>
 
 {% if paginator.total_pages > 1 %}
