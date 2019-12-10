@@ -57,17 +57,18 @@ use-site-title: true
 </div> -->
 
 <div class="posts-list">
-  <h2>Texte</h2>
+  <h1>Texte</h1>
    <div class="post-entry-container">
-     <h3>Kranzlied Muster</h3>
+     <h2>Kranzlied Muster</h2>
    </div>
   <div class="post-entry-container">
-  <h3>Übungstexte</h3>
+  <h2>Übungstexte</h2>
    </div>
   <div class="post-entry-container">
-     <h3>Ergebnisse</h3>
-      {% for partic in paginator.tei %}
-      <p>1</p>
+     <h2>Ergebnisse</h2>
+      {% for partic in paginator.posts %}
+      <h3 class="post-title">{{ post.title }}</h3>
+      {% endfor %}
   </div>
 </div>
 
