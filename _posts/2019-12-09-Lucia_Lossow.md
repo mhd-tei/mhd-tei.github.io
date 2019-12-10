@@ -1,7 +1,7 @@
 ---
 layout: post
-title: magdalena_terhorst
-name: Magdalena Terhorst
+title: lucia_lossow
+name: Lucia Lossow
 # image: /img/hello_world.jpeg
 ---
 

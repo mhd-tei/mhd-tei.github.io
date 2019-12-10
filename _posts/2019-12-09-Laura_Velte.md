@@ -1,4 +1,5 @@
 ---
+layout: post
 title: laura_velte
 name: Laura Velte
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: magdalena_terhorst
-name: Magdalena Terhorst
+title: kkatharina_pektor
+name: Katharina Pektor
 # image: /img/hello_world.jpeg
 ---
 
