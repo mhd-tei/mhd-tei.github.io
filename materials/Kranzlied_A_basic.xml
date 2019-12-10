@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="tei_all.dtd" href="tei_all.dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title></title>
+                <author></author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher></publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness>
+                        <msDesc>
+                        <msIdentifier>
+                            <settlement></settlement>
+                            <repository></repository>
+                            <idno></idno>
+                            <msName></msName>
+                        </msIdentifier>
+                        </msDesc> 
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile>
+        <surface ana="Page" xml:id="" n="">
+            <graphic url="https://digi.ub.uni-heidelberg.de/diglit/cpg357/0029/image"/>
+            <zone ana="Column" xml:id="" n=""/>
+        </surface>
+    </facsimile>
+    <text>
+        <body>
+            <div></div>
+         </body>
+    </text>
+</TEI>
