@@ -66,7 +66,7 @@ use-site-title: true
    </div>
   <div class="post-entry-container">
      <h2>Ergebnisse</h2>
-    {% for post in paginator.posts %}
+    {% for post in paginator.posts reversed  %}
   <div>
     <h3 class="post-title">{{ post.name }}</h3>
     <ul>
