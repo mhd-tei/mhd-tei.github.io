@@ -53,11 +53,11 @@ l {
     display: block;
 }
 
-reg {
+orig {
     display: none;
 }
 
-expan {
+abbr {
     display: none;
 }
 
@@ -65,8 +65,13 @@ lg {
     padding: 100px;
 }
 
-l {
+lb {
     margin-left: 25px;
+}
+
+lb:before {
+    content: "\A"
+    
 }
 
 w {
