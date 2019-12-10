@@ -70,7 +70,10 @@ use-site-title: true
   <div>
     <h3 class="post-title">{{ post.title }}</h3>
     <ul>
-      <a href="/tei/{{ post.title }}"><li>TEI-Datei</li></a>
+      <a href="/tei/paleog/{{ post.title }}"><li>TEI-Datei</li></a>
+    </ul>
+    <ul>
+      <a href="/tei/edit/{{ post.title }}"><li>TEI-Datei</li></a>
     </ul>
   </div>
     {% endfor %}
