@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="tei_lite.dtd" href="tei_lite.dtd"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nement, frowe, diſen cranz</title>
+                <author>Walther von der Vogelweide</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>TEI-Praxisworkshop</publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Heidelberg</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <idno>Cod. Pal. germ. 357</idno>
+                                <msName>Kleine Heidelberger Liederhandschrift</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <pb n="13r"/><cb n="a"/>
+            <lg n="1">
+                <l n="1"><lb n="5"/><pc type="editorial">›</pc><w><hi rend="initial red" n="2">N</hi>ement</w><pc type="editorial">,</pc><w>frowe</w><pc type="editorial">,</pc><w>diſen</w><w><rhyme label="a">cranz</rhyme></w><pc type="editorial">‹,</pc></l>
+                <l n="2"><w>alſo</w><w><choice><abbr>s<am>pᷓ</am>ch</abbr><expan>s<ex>pra</ex>ch</expan></choice></w><w>ich</w><w>z</w><w join="left">einer</w><w>wol</w><w>getanen</w><w><rhyme label="bʼ">maget</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="3"><pc type="editorial">›</pc><w>ſo</w><w part="I">zie</w><lb n="6"/><w part="F">ret</w><w>ir</w><w>den</w><w><rhyme label="a">tanz</rhyme></w></l>
+                <l n="4"><w>mit</w><w>den</w><w>ſchonen</w><w><choice><orig>blvͦmen</orig><reg>bluomen</reg></choice></w><w>als</w><w>ir</w><w join="left">s</w><w><choice><orig>vffe</orig><reg>uffe</reg></choice></w><w><rhyme label="bʼ">traget</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+                <l n="5"><w>het</w><w>ich</w><lb n="7"/><w>vil</w><w>edele</w><w>ge<rhyme label="cʼ">ſteine</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="6"><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w><choice><orig>mvͦz</orig><reg>muoz</reg></choice></w><w><choice><orig>v</orig><reg>u</reg></choice>f</w><w><choice><orig>v</orig><reg>u</reg></choice>wer</w><w><rhyme label="dʼ"><choice><orig>hoͮbet</orig><reg>houbet</reg></choice></rhyme></w><pc type="editorial">,</pc></l>
+                <l n="7"><w>obe</w><w>ir</w><w>mir</w><w join="left">s</w><w><choice><orig><choice><sic>ge<rhyme label="dʼ">hoͮbet</rhyme></sic><corr>ge<rhyme label="dʼ">loͮbet</rhyme></corr></choice></orig><reg>ge<rhyme label="dʼ">loubet</rhyme></reg></choice></w><pc type="ms">·</pc><pc type="editorial">:</pc></l>
+                <l n="8"><w>ſent</w><w part="I">mi</w><lb n="8"/><w part="F">ne</w><w>tr<choice><orig>v</orig><reg>u</reg></choice>we</w><pc type="editorial">,</pc><w><choice><abbr><am>dc</am><expan><ex>daz</ex></expan></abbr></choice></w><w>ich</w><w>ez</w><w><rhyme label="cʼ">meine</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+            </lg>
+            <lg n="2">
+                <l n="1"><w><hi rend="initial blue" n="1">F</hi>rowe</w><pc type="editorial">,</pc><w>ir</w><w>ſit</w><w>ſo</w><w>wol</w><w join="left">ge<rhyme label="a">tan</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="2"><w>daz</w><w>ich</w><w><choice><orig>vch</orig><reg>uch</reg></choice></w><w>min</w><lb n="9"/><w>ſchappel</w><w>gerne</w><w>geben</w><w><rhyme label="b">wil</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="3"><w>daz</w><w>aller</w><w>beſte</w><pc type="editorial">,</pc><w>daz</w><w>ich</w><w><rhyme label="a">han</rhyme></w><pc type="ms">·</pc><pc type="editorial">;</pc></l>
+                <l n="4"><w>wizer</w><w><choice><orig><choice><abbr>v<am>n̄</am></abbr><expan>v<ex>nd</ex></expan></choice></orig><reg>und</reg></choice></w><w>roter</w><w part="I" ><choice><orig>blvͦ</orig><reg>bluo</reg></choice></w><lb n="10"/><w part="F">men</w><w>weiz</w><w>ich</w><w><rhyme label="b">vil</rhyme></w><pc type="ms">·</pc><pc type="editorial">,</pc></l>
+                <l n="5"><w>die</w><w>ſtent</w><w>so</w><w>verre</w><w>in</w><w><choice><orig>iener</orig><reg>jener</reg></choice></w><w><rhyme label="cʼ">heide</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="6"><w>da</w><w>ſi</w><w>ſchone</w><w part="I">ent<rhyme label="dʼ">spr<choice><orig>v</orig><reg>u</reg></choice>n</rhyme></w><lb n="11"/><w part="F"><rhyme label="dʼ">gen</rhyme></w></l>
+                <l n="7"><w><choice><orig><choice><abbr>v<am>n̄</am></abbr><expan>v<ex>nd</ex></expan></choice></orig><reg>und</reg></choice></w><w>die</w><w><choice><abbr>clein<am>ē</am></abbr><expan>clein<ex>en</ex></expan></choice></w><w>vogele</w><w><rhyme label="dʼ">ſ<choice><orig>v</orig><reg>u</reg></choice>ngen</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="8"><w>da</w><w><choice><orig>ſvln</orig><reg>ſuln</reg></choice></w><w>wir</w><w>ſi</w><w>brechen</w><w><rhyme label="cʼ">beide</rhyme></w><pc type="ms">·</pc><pc type="editorial">.‹</pc></l>
+            </lg>
+            <lg n="3">
+                <l n="1"><w><hi rend="initial red" n="1">S</hi>i</w><w>nam</w><pc type="editorial">,</pc><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><lb n="12"/><w>ich</w><w>ir</w><w><rhyme label="a">bot</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="2"><w>einem</w><w>kinde</w><w>vil</w><w>geli<choice><sic>c</sic><corr>ch</corr></choice></w><pc type="editorial">,</pc><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>ere</w><w><rhyme label="b">hat</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+                <l n="3"><w>ir</w><w>wangen</w><w>wurden</w><w><rhyme label="a">rot</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="4"><w>ſame</w><lb n="13"/><w><choice><orig>dv̍</orig><reg>diu</reg></choice></w><w >rose</w><pc type="editorial">,</pc><w>da</w><w>ſi</w><w>bi</w><w>der</w><w>lilien</w><w><rhyme label="b">stat</rhyme></w><pc type="editorial">.</pc></l>
+                <l n="5"><w>des</w><w><choice><orig>er ſchampten</orig><reg>erſchampten</reg></choice></w><w>ſich</w><w><choice><orig>liehtv̍</orig><reg>liehtiu</reg></choice></w><w><rhyme label="cʼ"><choice><orig>oͮgen</orig><reg>ougen</reg></choice></rhyme></w><pc type="ms">·</pc><pc type="editorial">,</pc></l>
+                <l n="6"><w>doch</w><w>neic</w><lb n="14"/><w>ſi</w><w>mir</w><w>vil</w><w><rhyme label="dʼ">ſchone</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="7"><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>wart</w><w>mir</w><w>ze</w><w join="left"><rhyme label="dʼ">lone</rhyme></w><pc type="ms">·</pc><pc type="editorial">;</pc></l>
+                <l n="8"><w>wirt</w><w>mirs</w><w>iht</w><w>mere</w><pc type="editorial">,</pc><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>trage</w><w>ich</w><w part="I"><rhyme label="cʼ">toͮ</rhyme></w><lb n="15"/><w part="F"><rhyme label="cʼ">gen</rhyme></w><pc type="ms">·</pc></l>
+            </lg>
+            <lg n="4">
+                <l n="1"><w><hi rend="initial Blue" n="1">M</hi>ir</w><w>iſt</w><w><choice><abbr>v<am>ō</am></abbr><expan>v<ex>on</ex></expan></choice></w><w>ir</w><w>ge<rhyme label="aʼ">ſchehen</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="2"><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>ich</w><w>diſen</w><w><choice><orig>ſvmer</orig><reg>ſumer</reg></choice></w><w>allen</w><w><choice><sic>miden</sic><corr>meiden</corr></choice></w><w><rhyme label="b"><choice><orig>mvͦz</orig><reg>muoz</reg></choice></rhyme></w><pc type="ms">·</pc></l>
+                <l n="3"><w>vaſte</w><w part="I" ><choice><orig>vn</orig><reg>un</reg></choice></w><lb n="16"/><w part="F">der</w><w><choice><orig>dv̍</orig><reg>diu</reg></choice></w><w><choice><orig>oͮgen</orig><reg>ougen</reg></choice></w><w><rhyme label="aʼ">ſehen</rhyme></w><pc type="editorial">.</pc></l>
+                <l n="4"><w>lihte</w><w>wirt</w><w>mir</w><w>eine</w><pc type="editorial">,</pc><w>ſo</w><w>ist</w><w>mir</w><w>ſorgen</w><w><rhyme label="b"><choice><orig>bvͦz</orig><reg>buoz</reg></choice></rhyme></w><pc type="editorial">.</pc></l>
+                <l n="5"><w>waz</w><w>obe</w><w>ſi</w><w>get</w><lb n="17"/><w>in</w><w>diſem</w><w><rhyme label="cʼ">tanze</rhyme></w><pc type="editorial">?</pc></l>
+                <l n="6"><w>frowe</w><pc type="editorial">,</pc><w><choice><orig>dvr</orig><reg>dur</reg></choice></w><w><choice><orig>vwer</orig><reg>uwer</reg></choice></w><w><rhyme label="dʼ"><choice><orig>gvͦte</orig><reg>guote</reg></choice></rhyme></w><pc type="editorial">,</pc></l>
+                <l n="7"><w><choice><orig>rvket</orig><reg>ruket</reg></choice></w><w><choice><orig>vf</orig><reg>uf</reg></choice></w><w>die</w><w><rhyme label="dʼ"><choice><orig>hvte</orig><reg>hute</reg></choice></rhyme></w><pc type="ms">·</pc><pc type="editorial">!</pc></l>
+                <l n="8"><w>owe</w><pc type="editorial">,</pc><w>geſahe</w><w>ich</w><w>ez</w><lb n="18"/><w><choice><orig>vnder</orig><reg>under</reg></choice></w><w><rhyme label="cʼ">cranz</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+            </lg>
+            <lg>
+                <l n="1"><w><hi rend="initial Red" n="1">M</hi>ich</w><w><choice><orig>dvhte</orig><reg>duhte</reg></choice></w><pc type="editorial">,</pc><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>mir</w><w><rhyme label="a">ie</rhyme></w></l>
+                <l n="2"><w><choice><abbr>lie<am>b ͛</am></abbr><expan>lie<ex>ber</ex></expan></choice></w><w>wurde</w><pc type="editorial">,</pc><w>danne</w><w>mir</w><w>ze</w><w join="left"><choice><orig>mvͦte</orig><reg>muote</reg></choice></w><w><rhyme label="b">waz</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+                <l n="3"><lb n="19"/><w>die</w><w><choice><orig>blvͦmen</orig><reg>bluomen</reg></choice></w><w>vielen</w><w><rhyme label="a">ie</rhyme></w></l>
+                <l n="4"><w><choice><abbr>v<am>ō</am></abbr><expan>v<ex>on</ex></expan></choice></w><w>den</w><w><choice><orig>boͮimen</orig><reg>boumen</reg></choice></w><w>bi</w><w><choice><orig>vnſ</orig><reg>unſ</reg></choice></w><w>nider</w><w>an</w><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w><rhyme label="b">graz</rhyme></w><pc type="editorial">.</pc></l>
+                <l n="5"><w>ſeht</w><pc type="editorial">,</pc><w>do</w><w><choice><orig>mvͦſte</orig><reg>muoſte</reg></choice></w><lb n="20"/><w >ich</w><w><choice><abbr>v<am>ō</am></abbr><expan>v<ex>on</ex></expan></choice></w><w>froiden</w><w><rhyme label="cʼ">lachen</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="6"><w>do</w><w>ich</w><w>ſo</w><w>wunnec<rhyme label="dʼ">liche</rhyme></w></l>
+                <l n="7"><w>waz</w><w>in</w><w><choice><orig>trovme</orig><reg>troume</reg></choice></w><w><rhyme label="dʼ">riche</rhyme></w><pc type="editorial">,</pc></l>
+                <l n="8"><w>do</w><w>taget</w><lb n="21"/><w>ez</w><w><choice><orig><choice><abbr>v<am>n̄</am></abbr><expan>v<ex>nd</ex></expan></choice></orig><reg>und</reg></choice></w><w><choice><orig>mvͦze</orig><reg>muoze</reg></choice></w><w>ich</w><w><rhyme label="cʼ">wachen</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+            </lg>
+        </body>
+    </text>
+</TEI>

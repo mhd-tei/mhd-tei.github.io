@@ -68,9 +68,10 @@ use-site-title: true
      <h2>Ergebnisse</h2>
     {% for post in paginator.posts %}
   <div>
-    <a href="{{ post.url | relative_url }}">
     <h3 class="post-title">{{ post.title }}</h3>
-    </a>
+    <ul>
+      <a href="/tei/{{ post.title }}"><li>TEI-Datei</li></a>
+    </ul>
   </div>
     {% endfor %}
   </div>
