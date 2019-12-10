@@ -67,12 +67,12 @@ use-site-title: true
   <div class="post-entry-container">
      <h2>Ergebnisse</h2>
     {% for post in paginator.posts %}
-  <article class="post-preview">
+  <div>
     <a href="{{ post.url | relative_url }}">
-    <h2 class="post-title">{{ post.title }}</h2>
+    <h3 class="post-title">{{ post.title }}</h3>
     </a>
-  </article>
-  {% endfor %}
+  </div>
+    {% endfor %}
   </div>
 </div>
 
