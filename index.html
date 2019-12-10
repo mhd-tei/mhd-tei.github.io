@@ -5,17 +5,54 @@ subtitle: Einführung in die Kodierung mittelhochdeutscher Texte
 use-site-title: true
 ---
 
+
+
+<div class="posts-list">
+  <div class="post-entry-container">
+     <h1>Materialien</h1>
+  <div>
+    <ul>
+      <a href="/materials/kranz_2strophen.txt"><li>Experimentelle Übung - 2 Strophen</li></a>
+      <a href="/materials/kranzlied_transkriptionen.docx"><li>Kranzlied Transkriptionen - 3 Hss.</li></a>
+      <a href="/materials/kranzlied_regularisiert.docx"><li>Kranzlied Regularisiert - 2 Hss.</li></a>
+    </ul>
+  </div>
+  </div>
+
+<!-- Uncomment to activate students projects -->
+  <!-- <div class="post-entry-container">
+     <h1>Ergebnisse</h1>
+    {% for post in paginator.posts reversed  %}
+  <div>
+    <h3 class="post-title">{{ post.name }}</h3>
+    <ul>
+      <a href="/tei/paleog/{{ post.title }}"><li>XML Datei + Paleographische Visualisierung</li></a>
+      <a href="/tei/edit/{{ post.title }}"><li>XML Datei + Edierte Visualisierung</li></a>
+    </ul>
+  </div>
+    {% endfor %}
+  </div>
+</div> -->
+
+
+<div class="posts-list">
+  <p>Workshop fand am 13.-14. Dezember an der Universität Heidelberg statt.</p>
+  <p>Organisiert vom Sonderforschungsbereich 933 'Materiale Textkulturen'</p>
+  <!-- <p>Trainer: Gustavo Fernández Riva (Heidelberg), Victor Millet (Santiago de Compostela), Luise Borek (Darmstadt), Jakub Simek (Heidelberg)</p> -->
+</div>
+
+<!-- Original Code -->
 <!-- <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
     <a href="{{ post.url | relative_url }}">
-	  <h2 class="post-title">{{ post.title }}</h2>
+    <h2 class="post-title">{{ post.title }}</h2>
 
-	  {% if post.subtitle %}
-	  <h3 class="post-subtitle">
-	    {{ post.subtitle }}
-	  </h3>
-	  {% endif %}
+    {% if post.subtitle %}
+    <h3 class="post-subtitle">
+      {{ post.subtitle }}
+    </h3>
+    {% endif %}
     </a>
 
     <p class="post-meta">
@@ -56,31 +93,7 @@ use-site-title: true
   {% endfor %}
 </div> -->
 
-<div class="posts-list">
-  <div class="post-entry-container">
-     <h1>Materialien</h1>
-  <div>
-    <ul>
-      <a href="/materials/kranz_2strophen.txt"><li>Experimentelle Übung - 2 Strophen</li></a>
-      <a href="/materials/kranzlied_transkriptionen.docx"><li>Kranzlied Transkriptionen - 3 Hss.</li></a>
-      <a href="/materials/kranzlied_regularisiert.docx"><li>Kranzlied Regularisiert - 2 Hss.</li></a>
-    </ul>
-  </div>
-  </div>
-  <div class="post-entry-container">
-     <h1>Ergebnisse</h1>
-    {% for post in paginator.posts reversed  %}
-  <div>
-    <h3 class="post-title">{{ post.name }}</h3>
-    <ul>
-      <a href="/tei/paleog/{{ post.title }}"><li>XML Datei + Paleographische Visualisierung</li></a>
-      <a href="/tei/edit/{{ post.title }}"><li>XML Datei + Edierte Visualisierung</li></a>
-    </ul>
-  </div>
-    {% endfor %}
-  </div>
-</div>
-
+<!-- Original Code -->
 <!-- {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
