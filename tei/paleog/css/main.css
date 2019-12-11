@@ -17,8 +17,8 @@ lb {
     margin-bottom: 1px;
 }
 
-lb:before {
-    content: "\n"
+l:before {
+    content: " / "
 }
 
 

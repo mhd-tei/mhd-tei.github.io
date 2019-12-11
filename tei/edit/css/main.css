@@ -17,6 +17,10 @@ l {
     display: block;
 }
 
+lb:before {
+    content: "|";
+}
+
 hi {
     font-weight: bold;
 }
