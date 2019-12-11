@@ -1,7 +1,4 @@
 
-l {
-    display: block;
-}
 
 reg {
     display: none;
@@ -11,12 +8,13 @@ expan {
     display: none;
 }
 
-lg {
-    padding: 100px;
+
+lb {
+    margin-left: 25px;
 }
 
-l {
-    margin-left: 25px;
+lb:before {
+    content: "\A"
 }
 
 

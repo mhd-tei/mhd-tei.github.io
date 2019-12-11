@@ -7,13 +7,14 @@ abbr {
     display: none;
 }
 
-lb {
-    margin-left: 25px;
+lg {
+/*    padding: 100px;*/
+    display: block;
 }
 
-lb:before {
-    content: "\A"
-    
+l {
+    margin-left: 25px;
+    display: block;
 }
 
 hi {
