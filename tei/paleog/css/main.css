@@ -11,6 +11,10 @@ expan {
 
 lb {
     margin-left: 25px;
+    display: block;
+    height: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
 }
 
 lb:before {
