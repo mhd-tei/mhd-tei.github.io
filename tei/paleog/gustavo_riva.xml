@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="tei_lite.dtd" href="tei_lite.dtd"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
 <?xml-stylesheet type="text/css" href="css/main.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
