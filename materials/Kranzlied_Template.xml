@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XML-Praxisworkshop: Nement, frowe, diſen cranz</title>
+                <respStmt>
+                    <resp>konzipiert von</resp>
+                    <persName>Gustavo Riva</persName>
+                    <persName>Victor Mallet</persName>
+                    <persName>Jakub Šimek</persName>
+                    <persName>Luise Borek</persName>
+                </respStmt>
+                <funder><orgName sameAs="sfb">SFB Materiale Textkulturen</orgName></funder>
+            </titleStmt>
+            <publicationStmt>
+                <p>Für Übungszwecke, nicht zur weiteren Veröffentlichung gedacht.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Heidelberg</settlement>
+                        <repository>Universitätsbibliothek</repository>
+                        <idno>Cod. Pal. germ. 357</idno>
+                        <msName>Kleine Heidelberger Liederhandschrift</msName>
+                    </msIdentifier>
+                </msDesc>
+                <listObject>
+                    <!-- Hier werden die in diesem Dokument verwendeten Objekte aufgezählt -->
+                </listObject>
+                <listWit>
+                    <!-- Hier ist zu erfassen, welche Textzeugnisse verwendet wurden  -->
+                </listWit>
+                <listPerson type="figuren">
+                    <!-- Hier werden die Figuren, die im Text vorkommen, aufgelistet. Diese Liste kann alternativ auch in der für sie relevanten division angelegt werden -->
+                </listPerson>
+                <listPerson>
+                    <!-- Hier werden reale Personen, wie z.B. Autoren oder Herausgeberinnen aufgezählt -->
+                </listPerson>
+                <listBibl>
+                    <!-- Hier wird die Bibliographie vermerkt. Könnte alternativ daher auch direkt zum Kasten-Kommentar -->
+                </listBibl>
+                
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kranzlied">
+                <!-- Hier steht der Text des Liedes -->
+            </div>
+            <div type="commentary">
+                <!-- Hier wird der Kommentar zum Text eingefügt -->
+            </div>
+        </body>
+    </text>
+</TEI>
+
