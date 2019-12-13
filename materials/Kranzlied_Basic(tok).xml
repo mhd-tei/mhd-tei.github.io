@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XML-Praxisworkshop: Nement, frowe, diſen cranz</title>
+                <respStmt>
+                    <resp>konzipiert von</resp>
+                    <persName>Gustavo Riva</persName>
+                    <persName>Victor Mallet</persName>
+                    <persName>Jakub Šimek</persName>
+                    <persName>Luise Borek</persName>
+                </respStmt>
+                <funder><orgName sameAs="sfb">SFB Materiale Textkulturen</orgName></funder>
+            </titleStmt>
+            <publicationStmt>
+                <p>Für Übungszwecke, nicht zur weiteren Veröffentlichung gedacht.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Heidelberg</settlement>
+                        <repository>Universitätsbibliothek</repository>
+                        <idno>Cod. Pal. germ. 357</idno>
+                        <msName>Kleine Heidelberger Liederhandschrift</msName>
+                    </msIdentifier>
+                </msDesc>
+                <listObject>
+                    <!-- Hier werden die in diesem Dokument verwendeten Objekte aufgezählt -->
+                </listObject>
+                <listWit>
+                    <!-- Hier ist zu erfassen, welche Textzeugnisse verwendet wurden  -->
+                </listWit>
+                <listPerson type="figuren">
+                    <!-- Hier werden die Figuren, die im Text vorkommen, aufgelistet. Diese Liste kann alternativ auch in der für sie relevanten division angelegt werden -->
+                </listPerson>
+                <listPerson>
+                    <!-- Hier werden reale Personen, wie z.B. Autoren oder Herausgeberinnen aufgezählt -->
+                </listPerson>
+                <listBibl>
+                    <!-- Hier wird die Bibliographie vermerkt. Könnte alternativ daher auch direkt zum Kasten-Kommentar -->
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem">
+                <pb n="13r"/><cb n="a"/>
+                <lg n="1">
+                    <l n="1"><lb n="5"/><w><hi>N</hi>ement</w><w>frowe</w><w>diſen</w><w>cranz</w></l>
+                    <l n="2"><w>alſo</w><w>spᷓch</w><w>ich</w><w>z</w><w>einer</w><w>wol</w><w>getanen</w><w>maget</w></l>
+                    <l n="3"><w>ſo</w><w>zie</w><lb n="6"/><w>ret</w><w>ir</w><w>den</w><w>tanz</w></l>
+                    <l n="4"><w>mit</w><w>den</w><w>ſchonen</w><w>blvͦmen</w><w>als</w><w>ir</w><w>s</w><w>vffe</w><w>traget</w><pc>·</pc></l>
+                    <l n="5"><w>het</w><w>ich</w><lb n="7"/><w>vil</w><w>edele</w><w>geſteine</w></l>
+                    <l n="6"><w>dc</w><w>mvͦz</w><w>vf</w><w>vwer</w><w>hoͮbet</w></l>
+                    <l n="7"><w>obe</w><w>ir</w><w>mir</w><w>s</w><w>gehoͮbet</w><pc>·</pc></l>
+                    <l n="8"><w>ſent</w><w>mi</w><lb n="8"/><w>ne</w><w>trvwe</w><w>dc</w><w>ich</w><w>ez</w><w>meine</w><pc>·</pc></l>
+                </lg>
+                <lg n="2">
+                    <l n="1"><w><hi>F</hi>rowe</w><w>ir</w><w>ſit</w><w>ſo</w><w>wol</w><w>getan</w></l>
+                    <l n="2"><w>daz</w><w>ich</w><w>vch</w><w>min</w><lb n="9"/><w>ſchappel</w><w>gerne</w><w>geben</w><w>wil</w></l>
+                    <l n="3"><w>daz</w><w>aller</w><w>beſte</w><w>daz</w><w>ich</w><w>han</w><pc>·</pc></l>
+                    <l n="4"><w>wizer</w><w>vn̄</w><w>roter</w><w >blvͦ</w><lb n="10"/><w>men</w><w>weiz</w><w>ich</w><w>vil</w><pc>·</pc></l>
+                    <l n="5"><w>die</w><w>ſtent</w><w>so</w><w>verre</w><w>in</w><w>iener</w><w>heide</w></l>
+                    <l n="6"><w>da</w><w>ſi</w><w>ſchone</w><w>entsprvn</w><lb n="11"/><w>gen</w></l>
+                    <l n="7"><w>vn̄</w><w>die</w><w>cleinē</w><w>vogele</w><w>ſvngen</w></l>
+                    <l n="8"><w>da</w><w>ſvln</w><w>wir</w><w>ſi</w><w>brechen</w><w>beide</w><pc>·</pc></l>
+                </lg>
+                <lg n="3">
+                    <l n="1"><w><hi>S</hi>i</w><w>nam</w><w>dc</w><lb n="12"/><w>ich</w><w>ir</w><w>bot</w></l>
+                    <l n="2"><w>einem</w><w>kinde</w><w>vil</w><w>gelic</w><w>dc</w><w>ere</w><w>hat</w><pc>·</pc></l>
+                    <l n="3"><w>ir</w><w>wangen</w><w>wurden</w><w>rot</w></l>
+                    <l n="4"><w>ſame</w><lb n="13"/><w>dv̍</w><w>rose</w><w>da</w><w>ſi</w><w>bi</w><w>der</w><w>lilien</w><w>stat</w></l>
+                    <l n="5"><w>des</w><w>er ſchampten</w><w>ſich</w><w>liehtv̍</w><w>oͮgen</w><pc>·</pc></l>
+                    <l n="6"><w>doch</w><w>neic</w><lb n="14"/><w>ſi</w><w>mir</w><w>vil</w><w>ſchone</w></l>
+                    <l n="7"><w>dc</w><w>wart</w><w>mir</w><w>ze</w><w>lone</w><pc>·</pc></l>
+                    <l n="8"><w>wirt</w><w>mir</w><w>s</w><w>iht</w><w>mere</w><w>dc</w><w>trage</w><w>ich</w><w>toͮ</w><lb n="15"/><w>gen</w><pc>·</pc></l>
+                </lg>
+                <lg n="4">
+                    <l n="1"><w><hi>M</hi>ir</w><w>iſt</w><w>vōvon</w><w>ir</w><w>geſchehen</w></l>
+                    <l n="2"><w>dc</w><w>ich</w><w>diſen</w><w>ſvmer</w><w>allen</w><w>miden</w><w>mvͦz</w><pc>·</pc></l>
+                    <l n="3"><w>vaſte</w><w >vn</w><lb n="16"/><w>der</w><w>dv̍</w><w>oͮgen</w><w>ſehen</w></l>
+                    <l n="4"><w>lihte</w><w>wirt</w><w>mir</w><w>eine</w><w>ſo</w><w>ist</w><w>mir</w><w>ſorgen</w><w>bvͦz</w></l>
+                    <l n="5"><w>waz</w><w>obe</w><w>ſi</w><w>get</w><lb n="17"/><w>in</w><w>diſem</w><w>tanze</w></l>
+                    <l n="6"><w>frowe</w><w>dvr</w><w>vwer</w><w>gvͦte</w></l>
+                    <l n="7"><w>rvket</w><w>vf</w><w>die</w><w>hvte</w><pc>·</pc></l>
+                    <l n="8"><w>owe</w><w>geſahe</w><w>ich</w><w>ez</w><lb n="18"/><w>vnder</w><w>cranz</w><pc>·</pc></l>
+                </lg>
+                <lg>
+                    <l n="1"><w><hi>M</hi>ich</w><w>dvhte</w><w>dc</w><w>mir</w><w>ie</w></l>
+                    <l n="2"><w>lieb ͛</w><w>wurde</w><w>danne</w><w>mir</w><w>ze</w><w>mvͦte</w><w>waz</w><pc>·</pc></l>
+                    <l n="3"><lb n="19"/><w>die</w><w>blvͦmen</w><w>vielen</w><w>ie</w></l>
+                    <l n="4"><w>vōvon</w><w>den</w><w>boͮimen</w><w>bi</w><w>vnſ</w><w>nider</w><w>an</w><w>dc</w><w>graz</w></l>
+                    <l n="5"><w>ſeht</w><w>do</w><w>mvͦſte</w><lb n="20"/><w>ich</w><w>vō</w><w>froiden</w><w>lachen</w></l>
+                    <l n="6"><w>do</w><w>ich</w><w>ſo</w><w>wunnecliche</w></l>
+                    <l n="7"><w>waz</w><w>in</w><w>trovme</w><w>riche</w></l>
+                    <l n="8"><w>do</w><w>taget</w><lb n="21"/><w>ez</w><w>vn̄</w><w>mvͦze</w><w>ich</w><w>wachen</w><pc>·</pc></l>
+                </lg>
+            </div>
+            <div type="commentary">
+                <!-- Hier wird der Kommentar zum Text eingefügt -->
+            </div>
+        </body>
+    </text>
+</TEI>
+

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XML-Praxisworkshop: Nement, frowe, diſen cranz</title>
+                <respStmt>
+                    <resp>konzipiert von</resp>
+                    <persName>Gustavo Riva</persName>
+                    <persName>Victor Mallet</persName>
+                    <persName>Jakub Šimek</persName>
+                    <persName>Luise Borek</persName>
+                </respStmt>
+                <funder><orgName sameAs="sfb">SFB Materiale Textkulturen</orgName></funder>
+            </titleStmt>
+            <publicationStmt>
+                <p>Für Übungszwecke, nicht zur weiteren Veröffentlichung gedacht.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Heidelberg</settlement>
+                        <repository>Universitätsbibliothek</repository>
+                        <idno>Cod. Pal. germ. 357</idno>
+                        <msName>Kleine Heidelberger Liederhandschrift</msName>
+                    </msIdentifier>
+                </msDesc>
+                <listObject>
+                    <!-- Hier werden die in diesem Dokument verwendeten Objekte aufgezählt -->
+                </listObject>
+                <listWit>
+                    <!-- Hier ist zu erfassen, welche Textzeugnisse verwendet wurden  -->
+                </listWit>
+                <listPerson type="figuren">
+                    <!-- Hier werden die Figuren, die im Text vorkommen, aufgelistet. Diese Liste kann alternativ auch in der für sie relevanten division angelegt werden -->
+                </listPerson>
+                <listPerson>
+                    <!-- Hier werden reale Personen, wie z.B. Autoren oder Herausgeberinnen aufgezählt -->
+                </listPerson>
+                <listBibl>
+                    <!-- Hier wird die Bibliographie vermerkt. Könnte alternativ daher auch direkt zum Kasten-Kommentar -->
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem">
+                <pb n="13r"/><cb n="a"/>
+                <lg n="1">
+                    <l n="1"><lb n="5"/>Nement frowe diſen cranz</l>
+                    <l n="2">alſo spᷓch ich zeiner wol getanen maget</l>
+                    <l n="3">ſo zie<lb n="6"/>ret ir den tanz</l>
+                    <l n="4">mit den ſchonen blvͦmen als irs vffe traget<pc>·</pc></l>
+                    <l n="5">het ich<lb n="7"/>vil edele geſteine</l>
+                    <l n="6">dc mvͦz vf vwer hoͮbet</l>
+                    <l n="7">obe ir mirs gehoͮbet<pc>·</pc></l>
+                    <l n="8">ſent mi<lb n="8"/>ne trvwe dc ich ez meine<pc>·</pc></l>
+                </lg>
+                <lg n="2">
+                    <l n="1">Frowe ir ſit ſo wol getan</l>
+                    <l n="2">daz ich vch min<lb n="9"/>ſchappel gerne geben wil</l>
+                    <l n="3">daz aller beſte daz ich han<pc>·</pc></l>
+                    <l n="4">wizer vn̄ roter blvͦ<lb n="10"/>men weiz ich vil<pc>·</pc></l>
+                    <l n="5">die ſtent so verre in iener heide </l>
+                    <l n="6">da ſi ſchone entsprvn <lb n="11"/>gen </l>
+                    <l n="7">vn̄ die cleinē vogele ſvngen </l>
+                    <l n="8">da ſvln wir ſi brechen beide <pc>·</pc></l>
+                </lg>
+                <lg n="3">
+                    <l n="1">Si nam dc<lb n="12"/>ich ir bot </l>
+                    <l n="2">einem kinde vil gelic dc ere hat<pc>·</pc></l>
+                    <l n="3">ir wangen wurden rot</l>
+                    <l n="4">ſame<lb n="13"/>dv̍ rose da ſi bi der lilien stat</l>
+                    <l n="5">des er ſchampten ſich liehtv̍ oͮgen<pc>·</pc></l>
+                    <l n="6">doch neic<lb n="14"/>ſi mir vil ſchone</l>
+                    <l n="7">dc wart mir ze lone<pc>·</pc></l>
+                    <l n="8">wirt mir s iht mere dc trage ich toͮ<lb n="15"/>gen<pc>·</pc></l>
+                </lg>
+                <lg n="4">
+                    <l n="1">Mir iſt vō ir geſchehen</l>
+                    <l n="2">dc ich diſen ſvmer allen miden mvͦz<pc>·</pc></l>
+                    <l n="3">vaſte vn<lb n="16"/>der dv̍ oͮgen ſehen</l>
+                    <l n="4">lihte wirt mir eine ſo ist mir ſorgen bvͦz</l>
+                    <l n="5">waz obe ſi get<lb n="17"/>in diſem tanze</l>
+                    <l n="6">frowe dvr vwer gvͦte</l>
+                    <l n="7">rvket vf die hvte<pc>·</pc></l>
+                    <l n="8">owe geſahe ich ez<lb n="18"/>vnder cranz<pc>·</pc></l>
+                </lg>
+                <lg>
+                    <l n="1">Mich dvhte dc mir ie</l>
+                    <l n="2">lieb ͛ wurde danne mir ze mvͦte waz<pc>·</pc></l>
+                    <l n="3"><lb n="19"/>die blvͦmen vielen ie</l>
+                    <l n="4">vō den boͮimen bi vnſ nider an dc graz</l>
+                    <l n="5">ſeht do mvͦſte<lb n="20"/>ich vō froiden lachen</l>
+                    <l n="6">do ich ſo wunnecliche</l>
+                    <l n="7">waz in trovme riche</l>
+                    <l n="8">do taget<lb n="21"/>ez vn̄ mvͦze ich wachen<pc>·</pc></l>
+                </lg>
+            </div>
+            <div type="commentary">
+                <!-- Hier wird der Kommentar zum Text eingefügt -->
+            </div>
+        </body>
+    </text>
+</TEI>
+
