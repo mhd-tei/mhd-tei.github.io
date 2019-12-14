@@ -14,12 +14,12 @@
     </xsl:template>
     
 <!--    Liste der Elemente, deren Textinhalt zu bewahren ist -->
-    <xsl:template match=" tei:l | tei:text | tei:hi | tei:lg | tei:body | tei:choice | tei:reg |  tei:expan| tei:rhyme | tei:ex | tei:pc | tei:corr | tei:div | tei:TEI | tei:p | tei:persName">
+    <xsl:template match=" tei:l | tei:am | tei:text | tei:hi | tei:lg | tei:body | tei:choice | tei:reg | tei:rhyme | tei:ex | tei:pc | tei:corr | tei:div | tei:TEI | tei:p | tei:persName | tei:abbr  ">
         <xsl:apply-templates/>
     </xsl:template>
     
     <!--    Liste der Elemente, die gelöscht werden soll -->
-    <xsl:template match="tei:lb | tei:teiHeader | tei:orig | tei:abbr | tei:sic | tei:pb | tei:cb">
+    <xsl:template match="tei:lb | tei:teiHeader | tei:orig | tei:sic | tei:pb | tei:cb |  tei:expan">
     </xsl:template>
     
     <xsl:template match="tei:w ">
