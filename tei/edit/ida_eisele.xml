@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Barlaam und Josaphat</title>
+            <author>Rudolf von Ems</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Experiment zur digitalen Edition von Seite 1r</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Nach Handschrift D, Freiburg UB Hs. 48ß</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <head type="main">Barlaam und Josaphat</head>
+         <head type="sub">Prolog</head>
+         <pb n="1r"/>
+         <cb n="a"/>
+           <lg>
+              <l n="1">Alfa <app><lem wit="D">et</lem><rdg wit="A">⁊</rdg></app> o <pc>·</pc> kvnich ſabaoth <pc>·</pc></l>
+            <l n="2">Got deſ <app><lem wit="D">gewalteſ</lem><rdg>g<gap></gap>altes</rdg></app> craft gebot <pc>·</pc></l>
+              <l n="3">Leben ane <app><lem wit="D">vrhab</lem><rdg>vrh<gap></gap></rdg></app> dine kvnſt <pc>·</pc></l>
+            <l n="4">Ane anegengis <app><lem wit="D">begvnſt</lem><rdg wit="A">big<gap></gap>t</rdg></app> <pc>·</pc></l>
+            <l n="5">Was ie din gotlichiv <app><lem wit="D">chraft</lem><rdg wit="A">kr<gap></gap>ft</rdg></app> <pc>·</pc></l>
+            <l n="6">Lebende <app><lem
+               wit="D">inwern<choice><abbr>d̾</abbr><expan>der</expan></choice></lem><rdg wit="A">inwerder</rdg></app>
+               meiſ<choice><abbr>t̾</abbr><expan>ter</expan></choice>ſchaft <pc>·</pc></l>
+            <l n="7">Din hohiv kvnſt din wiſer rat <pc>·</pc></l>
+            <l n="8">Beſlozen v<choice><abbr>n̅</abbr><expan>nd</expan></choice> beſtrichet hat <pc>·</pc></l>
+            <l n="9"><app><lem wit="D">D<choice><abbr>c</abbr><expan>az</expan></choice>
+               anegenge</lem><rdg wit="A"><choice><orig>Denanvanch</orig><reg>Den anvanch</reg></choice></rdg></app> v<choice><abbr>n̅</abbr><expan>nd</expan></choice> d<choice><abbr>c</abbr><expan>az</expan></choice> ende <pc>·</pc></l>
+            <l n="10">Svnder miſſewende <pc>·</pc></l>
+            <l n="11">Biſtv <choice><abbr>d̾</abbr><expan>der</expan></choice> vrhab genant <pc>·</pc></l>
+            <l n="12">D<choice><abbr>c</abbr><expan>az</expan></choice> ende ſtat in diner hant <pc>·</pc></l>
+            <l n="13"><choice><abbr>D̾</abbr><expan>Der</expan></choice> beider name wære <app><lem
+               wit="D">dv ie</lem><rdg wit="A">drie</rdg></app> <pc>·</pc></l>
+            <l n="14">Doch gewunne dv ſi nie <pc>·</pc></l>
+            <l n="15">V<choice><abbr>n̅</abbr><expan>nd</expan></choice> mvͦzen <app><lem
+               wit="D"></lem><rdg wit="A">mit</rdg></app>deme gewalte din <pc>·</pc></l>
+            <l n="16">Verſagit v<choice><abbr>n̅</abbr><expan>nd</expan></choice> vroͤmede ſin <pc>·</pc></l>
+            <l n="17">Diner lebenden gotheit <pc>·</pc></l>
+            <l n="18">Wart anevanc nie ane <app><lem wit="D">geleit</lem><rdg wit="A">g<gap></gap>eit</rdg></app> <pc>·</pc></l>
+            <l n="19">Din craft gewinnet nie<choice><abbr>m̾</abbr><expan>mer</expan></choice> ort <pc>·</pc></l>
+            <l n="20">Din gewalt · din geiſt · din wort <pc>·</pc></l>
+            <l n="21">Got va<choice><abbr>t̾</abbr><expan>ter</expan></choice> menſche v<choice><abbr>n̅</abbr><expan>nd</expan></choice> kint <pc>·</pc></l>
+            <l n="22">Gewaltes vngeſcheiden ſint <pc>·</pc></l>
+            <l n="23">Als <app><lem wit="D"></lem><rdg wit="A">ie</rdg></app>ein angenge was <pc>·</pc></l>
+            <l n="24">Din einich drivalt vnitas <pc>·</pc></l>
+            <l n="25">Dir ſich biegent alliv knie <pc>·</pc></l>
+            <l n="26">Ze himel v<choice><abbr>n̅</abbr><expan>nd</expan></choice> vf <choice><abbr>d̾</abbr><expan>der</expan></choice> erde hie <pc>·</pc></l>
+            <l n="27"><app><lem wit="D"><supplied xml:id="sup_27"
+               reason="Loch">Vn</supplied>z</lem><rdg wit="A">Biz</rdg></app> dvr <choice><abbr>d̾</abbr><expan>der</expan></choice> helle kwnde <pc>·</pc></l>
+            <l n="28">Vor <app><lem wit="D">dir</lem><rdg wit="A">der</rdg></app> d<choice><abbr>c</abbr><expan>az</expan></choice> abgrunde <pc>·</pc></l>
+         </lg>
+         
+         <cb n="b"/>
+         <lg>
+            <l n="1">Bibent <app><lem
+               wit="D">v<choice><abbr>n̅</abbr><expan>nd</expan></choice></lem><rdg wit="A"></rdg></app> in vorhten ſwebet <pc>·</pc></l>
+            <l n="2">Von dinem ſvͦzen geiſte lebet <pc>·</pc></l>
+            <l n="3">Swas lebeliche ſich verſtat <pc>·</pc></l>
+            <l n="4">V<choice><abbr>n̅</abbr><expan>nd</expan></choice> <app><lem wit="D"></lem><rdg
+               wit="A">och</rdg></app><app><lem wit="D">lebendige</lem><rdg wit="A">lebende</rdg></app> ſinne hat <pc>·</pc></l>
+            <l n="5">Erde vivr waſſer lvft <pc>·</pc></l>
+            <l n="6">Kelti regen hizze tvft <pc>·</pc></l>
+            <l n="7">Getempirt hat din eineſ kraft <pc>·</pc></l>
+            <l n="8">In <app><lem wit="D">gotlicher</lem><rdg wit="A">g<gap></gap>er</rdg></app> meiſterſchaft <pc>·</pc></l>
+            <l n="9">Din e<app><lem wit="D">ineſ</lem><rdg wit="A"><gap></gap></rdg></app> fvrdahtlich gewalt <pc>·</pc></l>
+            <l n="10">Hat gen<choice><abbr>e̅</abbr><expan>em</expan></choice>met v<choice><abbr>n̅</abbr><expan>nd</expan></choice> gezalt <pc>·</pc></l>
+            <l n="11">Der ſternin menege v<choice><abbr>n̅</abbr><expan>nd</expan></choice> genant <pc>·</pc></l>
+            <l n="12">Ir allir namen v<choice><abbr>n̅</abbr><expan>nd</expan></choice> irchant <pc>·</pc></l>
+            <l n="13">Ir vmbe loͮf ir vmbe vart <pc>·</pc></l>
+            <l n="14"><app><lem wit="D">V<choice><abbr>n̅</abbr><expan>nd</expan></choice> wie ſie
+               nach ir rehter art <pc>·</pc></lem><rdg wit="A"><gap></gap></rdg></app></l>
+            <l n="15"><app><lem>Nature</lem><rdg wit="A">Naturent</rdg></app>
+               <app><lem>mit</lem><rdg wit="A"></rdg></app> al<choice><abbr>l̾</abbr><expan>ler</expan></choice> dinge lebin <pc>·</pc></l>
+            <l n="16">Den dv wilt lebende ſinne geben <pc>·</pc></l>
+            <l n="17">Oͮch mvͦz in ſinem loͮfe gan <pc>·</pc></l>
+            <l n="18">Alſ ez din kraft hat angelan <pc>·</pc></l>
+            <l n="19">D<choice><abbr>c</abbr><expan>az</expan></choice> firmament vnz an
+               <app><lem>ſin</lem><rdg wit="A">daz</rdg></app> zil <pc>·</pc></l>
+            <l n="20">Alſ ez gebot v<choice><abbr>n̅</abbr><expan>nd</expan></choice> alſ ez wil <pc>·</pc></l>
+            <l n="21">Div gotliche wizze din <pc>·</pc></l>
+            <l n="22">Alſo hat ſich <choice><abbr>d̾</abbr><expan>der</expan></choice> ſvnnen ſchin <pc>·</pc></l>
+            <l n="23">Intlivhtet v<choice><abbr>n̅</abbr><expan>nd</expan></choice> gerihtet <pc>·</pc></l>
+            <l n="24">Von nihte hat getihtet <pc>·</pc></l>
+            <l n="25">Din wiſer gotlic<choice><abbr>h̾</abbr><expan>her</expan></choice> liſt <pc>·</pc></l>
+            <l n="26">Swaſ ſihtich v<choice><abbr>n̅</abbr><expan>nd</expan></choice> vnſihtich iſt <pc>·</pc></l>
+            <l n="27">Din wort iſt aller dinge ſloz <pc>·</pc></l>
+            <l n="28">Den donrin v<choice><abbr>n̅</abbr><expan>nd</expan></choice> div blicheſchoz <pc>·</pc></l>
+         </lg>
+      </body>
+  </text>
+</TEI>
