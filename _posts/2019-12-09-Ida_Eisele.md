@@ -1,7 +1,7 @@
 ---
 layout: post
-title: katharina_pektor
-name: Katharina Pektor
+title: ida_eisele
+name: Ida Eisele
 # image: /img/hello_world.jpeg
 ---
 
