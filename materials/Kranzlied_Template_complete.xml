@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XML-Praxisworkshop: Nement, frowe, diſen cranz</title>
+                <respStmt>
+                    <resp>konzipiert von</resp>
+                    <persName>Gustavo Riva</persName>
+                    <persName>Victor Mallet</persName>
+                    <persName>Jakub Šimek</persName>
+                    <persName>Luise Borek</persName>
+                </respStmt>
+                <funder><orgName sameAs="sfb">SFB Materiale Textkulturen</orgName></funder>
+            </titleStmt>
+            <publicationStmt>
+                <p>Für Übungszwecke, nicht zur weiteren Veröffentlichung gedacht.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Heidelberg</settlement>
+                        <repository>Universitätsbibliothek</repository>
+                        <idno>Cod. Pal. germ. 357</idno>
+                        <msName>Kleine Heidelberger Liederhandschrift</msName>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness/>
+                </listWit>
+                <listPerson type="figuren">
+                    <person/>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="IK">
+                        <persName>Ingrid Kasten</persName>
+                        <idno corresp="http://d-nb.info/gnd/136788815">136788815</idno>
+                    </person>
+                    <person>
+                        <persName xml:id="PWapnewski">Peter Wapnewski</persName>
+                        <idno type="GND" corresp="http://d-nb.info/gnd/117138312">117138312</idno>
+                    </person>
+                    <person/>
+                </listPerson>
+                <listBibl>
+                    <bibl xml:id="kasten"> <editor> <persName ref="#IK"> Ingrid Kasten</persName> </editor> <title>Deutsche Lyrik des frühen und hohen Mittelalters</title> <idno type="GND" corresp="http://d-nb.info/945866658">945866658</idno> <respStmt>
+                        <resp>herausgegeben und kommentiert von</resp>
+                        <persName>Ingrid Kasten</persName>
+                        </respStmt> <respStmt>
+                        <resp>übersetzt von</resp>
+                        <persName>Margeritha Kuhn</persName>
+                        </respStmt> </bibl>
+                    <bibl type="article"><title>Walthers Lied von der Traumliebe (74,20) und die
+                        deutschsprachige Pastourelle
+
+                    </title> <author ref="#PWapnewski">Peter Wapnewski</author>
+                       Euphorion 51 (1957), S. 113-150
+                        <date>1957</date> <idno/> </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <!-- Falls vorhanden, kann man hier auf unterschiedlicher Schreiberhände verweisen-->
+                <handNote/>
+            </handNotes>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="kranzlied">
+                <pb n="13r"/>
+                <cb n="a"/>
+                <lg n="1" type="stanza" xml:id="s1" rhyme="ababcddc">
+                    <l n="1"><lb n="5"/><pc type="editorial">›</pc><w><hi rend="initial red" n="2">N</hi>ement</w><pc type="editorial">,</pc><w>frowe</w><pc type="editorial">,</pc><w>diſen</w><w><rhyme label="a">cranz</rhyme></w><pc type="editorial">‹,</pc></l>
+                    <l n="2"><w>alſo</w><w><choice><abbr>s<am>pᷓ</am>ch</abbr><expan>s<ex>pra</ex>ch</expan></choice></w><w>ich</w><w>z</w><w join="left">einer</w><w>wol</w><w>getanen</w><w><rhyme label="bʼ">maget</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="3"><pc type="editorial">›</pc><w>ſo</w><w part="I">zie</w><lb n="6"/><w part="F">ret</w><w>ir</w><w>den</w><w><rhyme label="a">tanz</rhyme></w></l>
+                    <l n="4"><w>mit</w><w>den</w><w>ſchonen</w><w><choice><orig>blvͦmen</orig><reg>bluomen</reg></choice></w><w>als</w><w>ir</w><w join="left">s</w><w><choice><orig>vffe</orig><reg>uffe</reg></choice></w><w><rhyme label="bʼ">traget</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+                    <l n="5"><w>het</w><w>ich</w><lb n="7"/><w>vil</w><w>edele</w><w>ge<rhyme label="cʼ">ſteine</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="6"><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w><choice><orig>mvͦz</orig><reg>muoz</reg></choice></w><w><choice><orig>v</orig><reg>u</reg></choice>f</w><w><choice><orig>v</orig><reg>u</reg></choice>wer</w><w><rhyme label="dʼ"><choice><orig>hoͮbet</orig><reg>houbet</reg></choice></rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="7"><w>obe</w><w>ir</w><w>mir</w><w join="left">s</w><w><choice><orig><choice><sic>ge<rhyme label="dʼ">hoͮbet</rhyme></sic><corr>ge<rhyme label="dʼ">loͮbet</rhyme></corr></choice></orig><reg>ge<rhyme label="dʼ">loubet</rhyme></reg></choice></w><pc type="ms">·</pc><pc type="editorial">:</pc></l>
+                    <l n="8"><w>ſent</w><w part="I">mi</w><lb n="8"/><w part="F">ne</w><w>tr<choice><orig>v</orig><reg>u</reg></choice>we</w><pc type="editorial">,</pc><w><choice><abbr><am>dc</am><expan><ex>daz</ex></expan></abbr></choice></w><w>ich</w><w>ez</w><w><rhyme label="cʼ">meine</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+                </lg>
+                <lg n="2" xml:id="s2">
+                    <l n="1"><w><hi rend="initial blue" n="1">F</hi>rowe</w><pc type="editorial">,</pc><w>ir</w><w>ſit</w><w>ſo</w><w>wol</w><w join="left">ge<rhyme label="a">tan</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="2"><w>daz</w><w>ich</w><w><choice><orig>vch</orig><reg>uch</reg></choice></w><w>min</w><lb n="9"/><w>ſchappel</w><w>gerne</w><w>geben</w><w><rhyme label="b">wil</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="3"><w>daz</w><w>aller</w><w>beſte</w><pc type="editorial">,</pc><w>daz</w><w>ich</w><w><rhyme label="a">han</rhyme></w><pc type="ms">·</pc><pc type="editorial">;</pc></l>
+                    <l n="4"><w>wizer</w><w><choice><orig><choice><abbr>v<am>n̄</am></abbr><expan>v<ex>nd</ex></expan></choice></orig><reg>und</reg></choice></w><w>roter</w><w part="I"><choice><orig>blvͦ</orig><reg>bluo</reg></choice></w><lb n="10"/><w part="F">men</w><w>weiz</w><w>ich</w><w><rhyme label="b">vil</rhyme></w><pc type="ms">·</pc><pc type="editorial">,</pc></l>
+                    <l n="5"><w>die</w><w>ſtent</w><w>so</w><w>verre</w><w>in</w><w><choice><orig>iener</orig><reg>jener</reg></choice></w><w><rhyme label="cʼ">heide</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="6"><w>da</w><w>ſi</w><w>ſchone</w><w part="I">ent<rhyme label="dʼ">spr<choice><orig>v</orig><reg>u</reg></choice>n</rhyme></w><lb n="11"/><w part="F"><rhyme label="dʼ">gen</rhyme></w></l>
+                    <l n="7"><w><choice><orig><choice><abbr>v<am>n̄</am></abbr><expan>v<ex>nd</ex></expan></choice></orig><reg>und</reg></choice></w><w>die</w><w><choice><abbr>clein<am>ē</am></abbr><expan>clein<ex>en</ex></expan></choice></w><w>vogele</w><w><rhyme label="dʼ">ſ<choice><orig>v</orig><reg>u</reg></choice>ngen</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="8"><w>da</w><w><choice><orig>ſvln</orig><reg>ſuln</reg></choice></w><w>wir</w><w>ſi</w><w>brechen</w><w><rhyme label="cʼ">beide</rhyme></w><pc type="ms">·</pc><pc type="editorial">.‹</pc></l>
+                </lg>
+                <lg n="3">
+                    <l n="1"><w><hi rend="initial red" n="1">S</hi>i</w><w>nam</w><pc type="editorial">,</pc><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><lb n="12"/><w>ich</w><w>ir</w><w><rhyme label="a">bot</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="2"><w>einem</w><w>kinde</w><w>vil</w><w>geli<choice><sic>c</sic><corr>ch</corr></choice></w><pc type="editorial">,</pc><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>ere</w><w><rhyme label="b">hat</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+                    <l n="3"><w>ir</w><w>wangen</w><w>wurden</w><w><rhyme label="a">rot</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="4"><w>ſame</w><lb n="13"/><w><choice><orig>dv̍</orig><reg>diu</reg></choice></w><w>rose</w><pc type="editorial">,</pc><w>da</w><w>ſi</w><w>bi</w><w>der</w><w>lilien</w><w><rhyme label="b">stat</rhyme></w><pc type="editorial">.</pc></l>
+                    <l n="5"><w>des</w><w><choice><orig>er ſchampten</orig><reg>erſchampten</reg></choice></w><w>ſich</w><w><choice><orig>liehtv̍</orig><reg>liehtiu</reg></choice></w><w><rhyme label="cʼ"><choice><orig>oͮgen</orig><reg>ougen</reg></choice></rhyme></w><pc type="ms">·</pc><pc type="editorial">,</pc></l>
+                    <l n="6"><w>doch</w><w>neic</w><lb n="14"/><w>ſi</w><w>mir</w><w>vil</w><w><rhyme label="dʼ">ſchone</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="7"><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>wart</w><w>mir</w><w>ze</w><w join="left"><rhyme label="dʼ">lone</rhyme></w><pc type="ms">·</pc><pc type="editorial">;</pc></l>
+                    <l n="8"><w>wirt</w><w>mirs</w><w>iht</w><w>mere</w><pc type="editorial">,</pc><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>trage</w><w>ich</w><w part="I"><rhyme label="cʼ">toͮ</rhyme></w><lb n="15"/><w part="F"><rhyme label="cʼ">gen</rhyme></w><pc type="ms">·</pc></l>
+                </lg>
+                <lg n="4">
+                    <l n="1"><w><hi rend="initial Blue" n="1">M</hi>ir</w><w>iſt</w><w><choice><abbr>v<am>ō</am></abbr><expan>v<ex>on</ex></expan></choice></w><w>ir</w><w>ge<rhyme label="aʼ">ſchehen</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="2"><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>ich</w><w>diſen</w><w><choice><orig>ſvmer</orig><reg>ſumer</reg></choice></w><w>allen</w><w><choice><sic>miden</sic><corr>meiden</corr></choice></w><w><rhyme label="b"><choice><orig>mvͦz</orig><reg>muoz</reg></choice></rhyme></w><pc type="ms">·</pc></l>
+                    <l n="3"><w>vaſte</w><w part="I"><choice><orig>vn</orig><reg>un</reg></choice></w><lb n="16"/><w part="F">der</w><w><choice><orig>dv̍</orig><reg>diu</reg></choice></w><w><choice><orig>oͮgen</orig><reg>ougen</reg></choice></w><w><rhyme label="aʼ">ſehen</rhyme></w><pc type="editorial">.</pc></l>
+                    <l n="4"><w>lihte</w><w>wirt</w><w>mir</w><w>eine</w><pc type="editorial">,</pc><w>ſo</w><w>ist</w><w>mir</w><w>ſorgen</w><w><rhyme label="b"><choice><orig>bvͦz</orig><reg>buoz</reg></choice></rhyme></w><pc type="editorial">.</pc></l>
+                    <l n="5"><w>waz</w><w>obe</w><w>ſi</w><w>get</w><lb n="17"/><w>in</w><w>diſem</w><w><rhyme label="cʼ">tanze</rhyme></w><pc type="editorial">?</pc></l>
+                    <l n="6"><w>frowe</w><pc type="editorial">,</pc><w><choice><orig>dvr</orig><reg>dur</reg></choice></w><w><choice><orig>vwer</orig><reg>uwer</reg></choice></w><w><rhyme label="dʼ"><choice><orig>gvͦte</orig><reg>guote</reg></choice></rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="7"><w><choice><orig>rvket</orig><reg>ruket</reg></choice></w><w><choice><orig>vf</orig><reg>uf</reg></choice></w><w>die</w><w><rhyme label="dʼ"><choice><orig>hvte</orig><reg>hute</reg></choice></rhyme></w><pc type="ms">·</pc><pc type="editorial">!</pc></l>
+                    <l n="8"><w>owe</w><pc type="editorial">,</pc><w>geſahe</w><w>ich</w><w>ez</w><lb n="18"/><w><choice><orig>vnder</orig><reg>under</reg></choice></w><w><rhyme label="cʼ">cranz</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+                </lg>
+                <lg>
+                    <l n="1"><w><hi rend="initial Red" n="1">M</hi>ich</w><w><choice><orig>dvhte</orig><reg>duhte</reg></choice></w><pc type="editorial">,</pc><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w>mir</w><w><rhyme label="a">ie</rhyme></w></l>
+                    <l n="2"><w><choice><abbr>lie<am>b ͛</am></abbr><expan>lie<ex>ber</ex></expan></choice></w><w>wurde</w><pc type="editorial">,</pc><w>danne</w><w>mir</w><w>ze</w><w join="left"><choice><orig>mvͦte</orig><reg>muote</reg></choice></w><w><rhyme label="b">waz</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+                    <l n="3"><lb n="19"/><w>die</w><w><choice><orig>blvͦmen</orig><reg>bluomen</reg></choice></w><w>vielen</w><w><rhyme label="a">ie</rhyme></w></l>
+                    <l n="4"><w><choice><abbr>v<am>ō</am></abbr><expan>v<ex>on</ex></expan></choice></w><w>den</w><w><choice><orig>boͮimen</orig><reg>boumen</reg></choice></w><w>bi</w><w><choice><orig>vnſ</orig><reg>unſ</reg></choice></w><w>nider</w><w>an</w><w><choice><abbr>d<am>c</am></abbr><expan>d<ex>az</ex></expan></choice></w><w><rhyme label="b">graz</rhyme></w><pc type="editorial">.</pc></l>
+                    <l n="5"><w>ſeht</w><pc type="editorial">,</pc><w>do</w><w><choice><orig>mvͦſte</orig><reg>muoſte</reg></choice></w><lb n="20"/><w>ich</w><w><choice><abbr>v<am>ō</am></abbr><expan>v<ex>on</ex></expan></choice></w><w>froiden</w><w><rhyme label="cʼ">lachen</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="6"><w>do</w><w>ich</w><w>ſo</w><w>wunnec<rhyme label="dʼ">liche</rhyme></w></l>
+                    <l n="7"><w>waz</w><w>in</w><w><choice><orig>trovme</orig><reg>troume</reg></choice></w><w><rhyme label="dʼ">riche</rhyme></w><pc type="editorial">,</pc></l>
+                    <l n="8"><w>do</w><w>taget</w><lb n="21"/><w>ez</w><w><choice><orig><choice><abbr>v<am>n̄</am></abbr><expan>v<ex>nd</ex></expan></choice></orig><reg>und</reg></choice></w><w><choice><orig>mvͦze</orig><reg>muoze</reg></choice></w><w>ich</w><w><rhyme label="cʼ">wachen</rhyme></w><pc type="ms">·</pc><pc type="editorial">.</pc></l>
+                </lg>
+            </div>
+            <div type="commentary" source="#kasten">
+                <head>Nemet, frowe, disen kranz </head>
+                <div>
+                    <head>ÜBERLIEFERUNG: </head>
+                    <p> 1 (L, 74,20): 134A, 262[280]C, 51E. 2 (L 75,9): 135A, 263[281]C, 52E. 3 (L
+                        74,28): 136A, 264[282]C, 53E. 4 (L 75,17): 138A, 373[389]C. 5 (L 75,1): 137A,
+                        372[388]C, 54E. Die Folge der Strophen 1-3 ist in allen Handschriften identisch,
+                        Strophe 4 ist in E nicht überliefert, in C stehen Strophe 4 und 5 getrennt von den
+                        anderen, aber in gleicher Reihenfolge wie in A. Die Umstellung der beiden Strophen
+                        erfolgt aus inhaltlichen Gründen. Text nach C. </p>
+                </div>
+                <div>
+                    <head>FORM: </head>
+                    <p> Achtzeilige Stollenstrophe (Grundschema: 3a6b 3a6b, 4c’3d’d’4c’). </p>
+                </div>
+                <div>
+                    <head>ERLÄUTERUNGEN: </head>
+                    <p> Zentrales Problem der Forschung ist die Ordnung der Strophen in diesem Lied, vor
+                        allem die Stellung von Strophe 2 (Frowe, ir sît sô wolgetân). Grund dafür ist, daß
+                        der Sprecher dem Mädchen bereits in Strophe 1 einen Kranz anbietet und dies in
+                        Strophe 2, was als unlogisch oder als überflüssige Wiederholung erschien, erneut
+                        tut. Die „Crux mit den zwei Kränzen“ (Wapnewski) wurde daher auf verschiedene
+                        Weise zu lösen versucht. So verband Kraus mit der Umstellung der Strophen 2 und 3
+                        die Annahme, daß in der so hergestellten Folge die dritte Strophe den Übergang auf
+                        eine neue Ebene einleite, den Übergang von einer Wach- in eine Traumwelt. Später
+                        folgte er dem zunächst von ihm abgelehnten Vorschlag, die Strophe Frowe, ir sît sô
+                        wolgetân als Frauenstrophe zu lesen. So ergab sich die (auch von Wapnewski
+                        angenommene) Folge: 1. Kranzangebot des Mannes, 2. Annahme des Kranzes durch das
+                        Mädchen, 3. Kranzangebot des Mädchens. Wenn auch die Eliminierung eines Taktes im
+                        ersten Vers der Strophe wegen metrischer Überfüllung vertretbar erscheint, so
+                        bleibt die damit begründete Auslassung von frowe und die Umdeutung der Strophe 2
+                        gegen die gesamte Überlieferung in eine Frauenstrophe problematisch. Vor allem im
+                        Blick auf die erotische Bedeutung der Kranzmetapher ist die Vorstellung eines
+                        gegenseitigen Kranzgeschenks zumindest ungewöhnlich. Zwar ist es eine gängige
+                        Vorstellung, daß ein Mädchen ‚ihren Kranz‘ verschenkt, aber daß die Aufforderung
+                        zum ‚Blumenbrechen‘ (deflorare) dem Mädchen zugewiesen wird, ist wegen der
+                        geschlechtsspezifischen Prägung der Metapher eher selten (vgl. z.B. Reinmar, Nr.
+                        154,4,5f.). Es ist im übrigen fraglich, ob von einer ‚Wiederholung‘ überhaupt
+                        gesprochen werden kann oder ob nicht besser von einer ‚Wiederaufnahme‘ des
+                        Kranzangebots im Sinne einer auf dem Prinzip der Steigerung basierenden
+                        Entfaltungstechnik die Rede sein sollte, die in sich durchaus schlüssig ist. Wenn
+                        der Sprecher der Tänzerin seinen ‚Kranz‘ zunächst mit den Worten offeriert, er
+                        würde ihr am liebsten eine mit Edelsteinen besetzte Krone schenken (<rs ref="#s1">Strophe 1</rs>), so
+                        wird dies dann durch den Hinweis erläutert, daß er ihr, da er eine Krone nun
+                        einmal nicht besitzt, wenigstens den schönsten Kranz schenken will, über den er
+                        verfügt (<rs ref="#s2">Strophe 2</rs>). Erst die Wiederaufnahme des Kranzangebots wird, mit der
+                        Evokation des traditionellen Lustortes und der Aufforderung, Blumen pflücken zu
+                        gehen, zum Anlaß, die erotische Bedeutung der Kranz-Metapher voll zu entfalten.
+                        Damit wird ein Verstehensmodus eröffnet, durch den die Annahme des Kranzangebots
+                        (in Strophe 3) als Annahme einer sexuellen Offerte entschlüsselt werden kann, ohne
+                        daß dies ausdrücklich gesagt werden muß. Ein weiteres Problem wirft die
+                        ‚Traumstrophe‘ (Strophe 4) auf, die in E nicht überliefert ist und die in den
+                        übrigen Handschriften an letzter Stelle steht. Nach der Stellung in der
+                        Überlieferung hat die ‚Traumstrophe‘ den Charakter einer nachgeschobenen
+                        Erinnerung an das Liebesglück, das nun überraschend als ein nur im Traum erlebtes
+                        Glück ausgewiesen wird. Inhaltlich aber schließt die ‚Traumstrophe‘ sich an
+                        Strophe 3 an, indem die dort nur angedeutete sexuelle Erfahrung auf metaphorische
+                        Ebene (Fall der Blumen) explizit gestaltet wird. Deshalb ist die Strophe hier, wie
+                        in anderen Ausgaben auch, gegen die Überlieferung, in der sich möglicherweise eine
+                        variable Aufführungspraxis spiegelt (Hahn), umgestellt. Die letzte Strophe greift
+                        so mit der Situation des Tanzlieds wieder auf den Anfang zurück. Damit entsteht
+                        ein geschlossener thematischer Rahmen, in welchen die ‚Traumstrophe‘ integriert
+                        ist. In der Forschung ist verschiedentlich die Auffassung vertreten worden, daß
+                        bei diesem Lied, das den sogenannten ‚Mädchenliedern‘ zugeordnet wird, die Gattung
+                        der Pastourelle Modell gestanden habe, die Walther vermutlich aus der
+                        mittellateinischen Lyrik kannte (vgl. auch das ‚Lindenlied‘, Nr. 160). Allerdings
+                        hat Walther den ständischen Gegensatz, der für die Pastourelle konstitutiv ist
+                        (ein Ritter oder Kleriker begegnet einer Hirtin), neutralisiert. Der soziale
+                        Status des männlichen Ichs bleibt ebenso unbestimmt wie der der maget;
+                        kennzeichnend für beide ist lediglich, daß sie nicht vermögend, daß sie ‚arm‘
+                        sind. Umstritten ist, wie diese Umdeutung des Pastourellenschemas zu werten ist
+                        und welche Signifikanz das Lied im Blick auf den Liebesdiskurs der Zeit hat.
+                        Wapnewski vertritt die Auffassung, daß Walther für eine Aufhebung der
+                        Standesgrenzen bei ‚echter‘ Liebe plädiert und damit seinem Protest gegen den
+                        Hohen Sang Ausdruck verleiht, während Hahn der Meinung ist, daß in diesem Lied die
+                        Werte der Hohen Minne nicht preisgegeben werden. Das vorrangige Interesse Walthers
+                        hat, wie in anderen erotischen Liedern, vielleicht aber gerade darin bestanden,
+                        die Erfahrung von Sexualität darzustellen und sie jenseits der Dichotomie von
+                        Hoher und Niederer Minne als etwas Positives auszuweisen. Die kunstvollen Formen
+                        der Vermittlung, die Walther einsetzt, um das Unsagbare sagbar zu machen
+                        (Verwendung von Metaphern, Darstellung des Vorgangs als etwas Vergangenes, als
+                        einen Traum), stützen eine solche These, während sich die Anbindung an den Diskurs
+                        über die Hohe Minne auf den formalen Gestus ‚höfischen‘ Sprechens beschränkt.
+                        1,1f.] Kränze erscheinen als Requisiten beim Tanz auch in der Lyrik Neidharts. Daß
+                        Männer Kränze trugen, wird durch Eilhart von Oberge, hg. v.F. Lichtenstein,
+                        Straßburg und London 1877, V. 9062, und Parzival 776,6f. bestätigt. 1,2 getânen]
+                        AE, getaner C. 1,6 iur] ir CE, vwer A. 2,2 schapel] E, tschapel C, schappel A.
+                        2,6:7 springent:singent] E, entsprvngen:svngen AC. Der Kontext verlangt die
+                        Präsensformen. 3,2] Die unterschiedlichen Übersetzungen zeigen, wie unsicher die
+                        Deutung von êre an dieser Stelle ist, vgl. z.B. „ganz so, wie es ein edles
+                        Fräulein tut“ (Maurer, Walther), „Wie ein junges Mädchen, das wohlerzogen ist“
+                        (Wapnewski, Walther), „wie ein Mädchen, das geehrt wird“ (Kuhn, Minnelieder
+                        Walthers, S. 99). Der Kontext legt allerdings die Annahme nahe, daß hier das
+                        (jungfräuliche) Schamgefühl des Mädchens gemeint ist. Die soziale und moralische
+                        Bedeutungskomponente von êre dürfte im Zusammenhang mit der Annahme des ‚Kranzes‘
+                        jedenfalls keine besondere Rolle spielen. Zu rechnen ist auch mit einem
+                        kontrastiven Bezug auf das Thema wîbes êre in einigen Frauenliedern Reinmars. 3,4]
+                        Der Vergleich mit Lilie und Rose ist topisch, vgl. Nr. 209,1,7. 4,1 nie] ie AC.
+                        4,3 vielen] vieln C. 4,5 muoste] A, müeste C. 4,8 muos] mvoz C, muoze A. Der
+                        Kontext verlangt das Präteritum. 4,8] Zum Motiv ‚Liebesglück im Traum‘ vgl. &#x2192;
+                        Traum. 5,1 von ir geschehen] geschen.von ir C. 5,5 gêt] Der höfische Tanz wurde
+                        bloß getreten oder gegangen, der Reigen war dagegen von lebhafter Bewegung; er
+                        wurde im Freien unter der Linde gesprungen. VARIANTE: 3,8 wirt] wart E. </p>
+                </div>
+                <div>
+                    <head>LITERATUR: </head>
+                    <p> <bibl><persName ref="#PWapnewski">Peter Wapnewski</persName>, Walthers Lied von der Traumliebe (74,20) und die
+                        deutschsprachige Pastourelle, Euph. 51 (1957), S. 113-150,</bibl> wieder in: Waz ist
+                        minne, S. 109-154. Wolfgang Mohr, Vortragsform und Form als Symbol im
+                        mittelalterlichen Liede, in: Festgabe U. Pretzel, hg. v. W. Simon u. a., Berlin
+                        1963, S. 128-138. Harold B. Willson, Nemt, vrowe, disen kranz, Medium Aevum 34
+                        (1965), S. 189-202. Ulrich Pretzel, Zu Walthers Mädchenliedern, in: Festschrift H.
+                        de Boor, Tübingen 1966, S. 38-43. Gerhard Hahn, Walther von der Vogelweide. Nemt
+                        vrowe, disen kranz (74,20), in: Interpretationen mittelhochdeutscher Lyrik, Bad
+                        Homburg, Berlin und Zürich 1969, S. 205-226. Sabine Brinkmann, Die
+                        deutschsprachige Pastourelle. 13. Bis 16. Jahrhundert, Göppingen 1985 (GAG 307),
+                        S. 177-193. </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
