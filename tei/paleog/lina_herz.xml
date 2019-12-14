@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Konrad von Würzburg: Trojanerkrieg</title>
+         </titleStmt>
+         <publicationStmt>
+            <p> Transkription von Lina Herz</p>
+         </publicationStmt>
+         <sourceDesc>
+           <listWit>
+              <witness>
+                 <msDesc>
+                    <msIdentifier>
+                       <settlement>St. Gallen</settlement>
+                       <repository>Stiftsbibliothek</repository>
+                       <idno>Cod. Sang. 617</idno>
+                    </msIdentifier>
+                 </msDesc>
+                
+              </witness>
+           </listWit>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>   
+<facsimile><surface type="page">
+   <graphic url="https://www.e-codices.unifr.ch/de/list/one/csg/0617"></graphic>
+   <zone type="column"></zone>
+</surface></facsimile>
+  <text>
+      <body>
+       
+         <div type="Vers" facs="1rbT.jpg">
+            <head>Prolog V. 234-236</head>
+            <pb n="1r"/>
+            
+            <cb n="b"/>
+            <lg>
+            <l n="9"><hi>I</hi>ch wil ein märe<del>ist ein herz</del> <supplied>tichten</supplied>,</l>
+            <l n="10"><choice><abbr><hi>d</hi>z<am>daz</am></abbr></choice> allen mären ist ein <choice><sic>herz</sic><corr>herr</corr></choice>.</l>
+	  <l n="11"><hi>a</hi>ls in <choice> <abbr>dz<am>daz</am></abbr></choice> wilde <choice><sic>robende</sic></choice><corr>tobende</corr> mer </l> 
+         </lg>
+         </div>
+      </body>
+  </text>
+</TEI>
