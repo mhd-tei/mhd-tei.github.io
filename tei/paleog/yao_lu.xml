@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Vita Getrut von Kolmar</title>
+            <respStmt>
+               <resp>transkripiert von</resp>
+               <persName>Yao Lu</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>Freiburg</settlement>
+                  <repository>Stadtarchiv</repository>
+                  <idno>B1 Hs. 163</idno>
+                  <msName>Sammelband aus dem Kloster St. Maria-Magdalena der Reuerinnen</msName>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="Schwester">
+               <person xml:id="UL_01" role="Dominikanerin" sex="2">
+                  <persName>Gertrut von Kolmar</persName>
+                  <residence type="convent">Kloster Unterlinden</residence>
+                  <residence type="city">Colmar</residence>
+               </person>
+            </listPerson>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="Nonnenviten" xml:id="NV_01">
+         <pb facs="77r"/>
+            <p><lb/>Ein selige S geheissen <persName type="Schwester" ref="#UL_01" >gertrut von kolmar</persName><pc resp="ed">,</pc>  <lb/>Die selbe S <persName type="Schwester" ref="#UL_01">gerdrut</persName> was sölches gros<lb/>ses flisses zü halten alle strengikeit<lb/>des ordens<pc resp="ed">,</pc> dz sie ir in keinen dingen schont <lb/>z<pc resp="ed">.</pc> die strengikeit des <placeName>conuenten</placeName> hielt sie <lb/>stetteclich zü <placeName>kor</placeName> zü reuental<pc resp="ed">,</pc> in <date>fasten <lb/>wachen</date><pc resp="ed">,</pc> in spise<pc resp="ed">,</pc> in tranck vnd in allen <lb/>andern dingen hielt sie den orden vnd <lb/>die regel<pc resp="ed">.</pc> Sie wer siech oder gesunt<pc resp="ed">.</pc> <lb/>XXX jor kestiget sie yren lip mit vngleip <lb/>licher abslinentz<pc resp="ed">.</pc> sie versücht ouch in den <lb/>ioren nie kein fleisch<pc resp="ed">,</pc> vnd as ouch nit dz <lb/>mit ancken oder smaltz kachi was<pc resp="ed">,</pc> dan <lb/>gar selten<pc resp="ed">.</pc> sie hat vil dz kalt wee durch <lb/>dise XXX jor wz sie al <date>fritag</date> zü <date>naht</date> an
+         <pb facs="77v"/>
+               <lb/>yren andehtigen gebet bis <date>metten</date><pc resp="ed">,</pc> <lb/>vnd stund nit dest mynder zü <date>metten</date> <lb/>it frolichem singen vnd uff ruffen <lb/>vntz in den hymel Sie flissig zú <placeName>kor </placeName><lb/>andechtig im götichen dienst Sie schetzt <lb/>es nit ein cleine schuld wan sie etwen von <lb/>vngesel oder von heisere nit frölich sin¬<lb/>gen möht Sie slüg sich reglich aller <lb/>herteclichest mit disnplinen Sie het ouch <lb/>vil heymlicher offen borung von got der <lb/><w pos="PRO" msd="">ich</w> eins wil melden die andern durch kùrtze <lb/>willer vnder wesen lossen, Es wz ein S <lb/>kùrtzlich gestorben die wz sengerin vnd <lb/>het ein gütte stym aber sie het sich vast <lb/>gespart vnd den <placeName>kor</placeName> vil verssumt on not <lb/>do hort dise S <persName type="Schwester" ref="#UL_01">gerdrut</persName> mit yren liplichen <lb/>oren vnd sach in dem kor dz die selbe <lb/>swester gar herclich gepiniget vnd ge¬<lb/>slagen wart so swerlich und grùlich <lb/>das sie duht einer streich solt sie gedöttet
+         <pb facs="78r"/>
+               <lb/>han do hat dise S <persName type="Schwester" ref="#UL_01">gertrut</persName> ein groß hertz <lb/>lich mitliden mit ir do wart ir geoffen¬<lb/>bort dz es geschee vmb die versumlicheit <lb/>des götlichen dienstes vnd ir fröliche stymm <lb/>dick gespart het <lb/></p>
+            <p>Es wart vff ein mol ein junge S in dem <lb/>cappittel gestroft vmd ir sùmlicheit do wart <lb/>sie also beswert vnd sie ging zü hant in <lb/>den kor vnd wart aller süssiclichest sloffen <lb/>Ddo erscthein ir ein ander v die ir base i <lb/>do ouch nùlich gestorben wz die kam zü <lb/>ir in ir kaipen vnd het ein wile vff vnd <lb/>trug ein enzunte kertzen vnd ein gezwir¬<lb/>ten faden vnd sie enzunt den faden an <lb/>der kertzen vnd sprach zü der betrupten <lb/>S sich vff vnd sprach wie der faden verzert <lb/>wirt von dem brennen also ist din schuld <lb/>gegen got verzert von der stroffung des <lb/><placeName>cappittel</placeName>s darumb liebs kint bis furbas <lb/>niemer me als betrubt So du vmb din
+          <pb facs="78v"/>
+               <lb/>vber trettung in cappittel gestrofft wurst</p></div>
+      </body>
+  </text>
+</TEI>
