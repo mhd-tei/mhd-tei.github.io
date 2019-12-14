@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+        <lg>
+           <l><lb n="1"/>Got vater vnſer da dv biſt<pc>.</pc></l> 
+            <l>in dē himel<lb n="2"/>riche gewaltig alles des dir iſt<pc>.</pc></l> 
+            <l>gehei<lb n="3"/>liget ſo w&#x035B;de din nam zů ſo m&#xE72B;ſſe vns ko<lb n="4"/>mē dc riche din<pc>.</pc></l> 
+            <l>din wille w&#x035B;de dē gelich<pc>.</pc></l>
+        </lg>
+         <lg>
+           <l><lb n="5"/>hie vf d&#x035B; erde als in den himeln des gew&#x035B; <lb n="6"/>vnſich<pc>.</pc></l>
+           <l>nv gib vns vnſer regelich brot v&#xE5DC; <lb n="7"/>swes wir darnach d&#x1EE7;rfitg ſin<pc>.</pc></l>
+           <l>v&#x035B;gib &#xE74D;ſ <lb n="8"/>allen ſament vnſer ſchulde<pc>.</pc></l>
+            <l>als dv wilt <lb n="9"/>dc wir durch dine hulde<pc>.</pc> </l>
+            <l>v&#x035B;gebē d&#x035B; wir <lb n="10"/>ie genamē<pc>.</pc></l> 
+            <l>de keinē ſchadē ſwie gros er <lb n="11"/>ſi<pc>.</pc> </l>
+             <l>vor ſ&#x1EE7;ndē bekor ſo mache vns fri<pc>.</pc></l>
+             <l>v&#xE5DC;l&#xE644;ſe vns &#xE647;ch vō allē v&#x0300;bele amen<pc>.</pc></l>
+        </lg>
+      </body>
+  </text>
+</TEI>
