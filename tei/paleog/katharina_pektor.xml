@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Kodierungsübung</title>
+            <title type="sub">Die erste Strophe von Wolframs Parzival</title>
+            <respStmt>
+               <resp>aufbereitet von</resp>
+               <persName>Katharina Pektor</persName>
+            </respStmt>
+            <respStmt> <resp>unter Mitarbeit von</resp> <persName>Luise Borek</persName></respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>von Katharina Pektor</p>
+         </publicationStmt>
+         <sourceDesc>
+            <listObject> <object>
+               <objectIdentifier> <objectName xml:id="agelstern">agelstern</objectName></objectIdentifier>
+            </object></listObject>
+            <msDesc>
+               <msIdentifier> <institution>Stiftsbibliothek St. Gallen</institution>
+                  <idno corresp="https://www.e-codices.unifr.ch/en/list/one/csg/0857">Cod. 857</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div><head>Der Parcival</head>
+         <div type="Prolog">
+            <p n="1">
+               <lg n="1" rhyme="aabbccddeeffgg">
+                  <l n="1"><w><hi rend="initial">I</hi>st</w>
+                     <w lemma="zwîvel"
+                        lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=3,1224,1">zwuiel</w>
+                     <w><choice><abbr>h&#x35b;zen</abbr><expan>herzen</expan></choice></w>
+                     <w><rhyme label="a">nahgebur</rhyme></w></l>
+                  <l n="2"><w>daz</w>
+                     <w>m&#x16f;z</w>
+                     <w>der</w>
+                     <w lemma="sêle" lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=2,863,53"
+                        >&#x17f;ele</w>
+                     <w>werden</w>
+                     <w><rhyme label="a">&#x17f;ur</rhyme></w></l>
+                  <l n="3"><w>ge&#x17f;mehet</w>
+                     <w>unde</w>
+                     <w><rhyme label="b">gezieret</rhyme></w><pc>.</pc></l>
+                  <l n="4"><w>ist</w>
+                     <w>&#x17f;</w><w join="left">wa</w>
+                     <w>&#x17f;ich</w>
+                     <rhyme label="b">parrieret</rhyme><pc>.</pc></l>
+                  <l n="5"><w><choice><orig>vn verzaget</orig><corr>unverzaget</corr></choice></w>
+                     <w>mannes</w>
+                     <w lemma="muot"
+                        lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=1,2241,50"><rhyme
+                           label="c">m&#x16f;t</rhyme></w><pc>.</pc></l>
+                  <l n="6"><w>al&#x17f;</w>
+                     <w lemma="agelster"
+                        lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=1,27,32"
+                        >agel&#x17f;tern</w>
+                     <w>vawe</w>
+                     <w><rhyme label="c">t&#x16f;t</rhyme></w><pc>.</pc></l>
+                  <l n="7"><w>der</w>
+                     <w>mac</w>
+                     <w>dennoch</w>
+                     <w>we&#x17f;en</w>
+                     <w><rhyme label="d">geil</rhyme></w><pc>.</pc></l>
+                  <l n="8"><w>wand</w>
+                     <w>an</w>
+                     <w>im</w>
+                     <w>&#x17f;int</w>
+                     <w>beidiv</w>
+                     <w><rhyme label="d">teil</rhyme></w><pc>.</pc></l>
+                  <l n="9">de&#x17f; himel&#x17f; vnd der <rhyme label="e"
+                     >helle</rhyme><pc>.</pc></l>
+                  <l n="10"><w>der</w>
+                     <w>un&#x17f;tete</w>
+                     <w><rhyme label="e">ge&#x17f;sele</rhyme></w></l>
+                  <l n="11"><w>hat</w>
+                     <w>di</w>
+                     <w>&#x17f;warzen</w>
+                     <w><unclear>varwe</unclear></w>
+                     <w><rhyme label="f">g&#xe2;r</rhyme></w><pc>.</pc></l>
+                  <l n="12">vnd wirt ouch nah der vin&#x17f;ter <rhyme label="f">var</rhyme></l>
+                  <l n="13"><w>&#x17f;o</w>
+                     <w>habt</w>
+                     <w>&#x17f;ich</w>
+                     <w>an</w>
+                     <w>die</w>
+                     <w><rhyme label="g">blanken</rhyme></w><pc>.</pc></l>
+                  <l n="14"><w>der</w>
+                     <w>mit</w>
+                     <w>&#x17f;&#xeb;ten</w>
+                     <w><rhyme label="g">gedanken</rhyme></w><pc>.</pc></l>
+               </lg>
+            </p>
+         </div></div>
+      </body>
+   </text>
+</TEI>
