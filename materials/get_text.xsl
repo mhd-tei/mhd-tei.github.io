@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:tei="http://www.tei-c.org/ns/1.0"
@@ -14,7 +14,7 @@
     </xsl:template>
     
 <!--    Liste der Elemente, deren Textinhalt zu bewahren ist -->
-    <xsl:template match=" tei:l | tei:text | tei:hi | tei:lg | tei:body | tei:choice | tei:reg |  tei:expan| tei:rhyme | tei:ex | tei:pc | tei:corr | tei:div | tei:TEI">
+    <xsl:template match=" tei:l | tei:text | tei:hi | tei:lg | tei:body | tei:choice | tei:reg |  tei:expan| tei:rhyme | tei:ex | tei:pc | tei:corr | tei:div | tei:TEI | tei:p | tei:persName">
         <xsl:apply-templates/>
     </xsl:template>
     
