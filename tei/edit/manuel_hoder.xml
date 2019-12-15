@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title> Julius Caesar teutsch</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement>München</settlement>
+                  <repository>Bayerische Staatsbibliothek</repository>
+                  <idno>Caesar, Gaius Julius: Commentarii de bello Galli / de bello civili (dt.) - Ringmann, Matthias (Übers.)</idno>
+                  <msName>Straßburg: Grüninger 1507 (VD 16 C 54)</msName>
+               </msIdentifier>
+            </msDesc>
+            <listPerson type="Personen">
+               <person xml:id="Caesar"><p>001 - Caesar, Gaius Julius </p></person>
+               <person xml:id="Ariovist"><p>002 - Ariovist - Feldherr der Germanen</p></person>
+               <person xml:id="Galba"><p>003 - Galba, Servius Sulpicius - Prätor (54 v. Chr.)</p></person>
+               <person xml:id="Titurius"><p>004 - Sabinus, Quintus Titurius - Legat (Caesar) († 54 v. Chr.)</p></person>
+               <person xml:id="Vercingetorix"><p>004 - Vercingetorix - Feldherr der Gallier</p></person>
+               <person xml:id="Ringmann"><p>005 - Ringmann, Matthias Philesiusr</p></person>
+            </listPerson>
+            <listPerson type="Völker">
+               <person xml:id="Gallier"><p>001 - Gallier</p></person>
+               <person xml:id="Germanen"><p>002 - Germanen, Teutsche, Deutsche</p></person>
+               <person xml:id="Helvetier"><p>003 - Helvetier, Schweizer</p></person>
+               <person xml:id="Römer"><p>004 - Römer, Latiner</p></person>
+            </listPerson>
+            <listObject type="Länder-Landschaften">
+               <object xml:id="Gallien"><objectIdentifier><country>001 - Gallien, Frankreich</country></objectIdentifier></object>
+               <object xml:id="Venetien"><objectIdentifier><country>002 - Venetien</country></objectIdentifier></object>
+               <object xml:id="Britannien"><objectIdentifier><country>003 - Britannien, Großbritannien, England</country></objectIdentifier></object>
+               <object xml:id="Germanien"><objectIdentifier><country>004 - Germanien, Deutschland, Tütschland</country></objectIdentifier></object>
+               <object xml:id="Spanien"><objectIdentifier><country>005 - Spanien, Hispanien</country></objectIdentifier></object>
+            </listObject>
+            <listObject type="Kriege">   
+               <object xml:id="VenetischerKrieg"><objectIdentifier><country>001 - Gallien, Frankreich</country></objectIdentifier></object>
+               <object xml:id="Bürgerkrieg"><objectIdentifier><country>002 - Bürgerkrieg Caesar vs. Pompeius</country></objectIdentifier></object>
+               <object xml:id="AlexandrinischerKrieg"><objectIdentifier><country>003 - Alexandrinischer Krieg</country></objectIdentifier></object>
+               <object xml:id="AfrikanischerKrieg"><objectIdentifier><country>004 - Afrikanischer Krieg</country></objectIdentifier></object>
+            </listObject>
+            <listObject type="Städte">   
+               <object xml:id="Rom"><objectIdentifier><region>001 - Rom</region></objectIdentifier></object>
+            </listObject>
+            <listObject type="Flüsse">   
+               <object xml:id="Rhein"><objectIdentifier><region>001 - Rhein</region></objectIdentifier></object>
+            </listObject>
+            <listObject type="Sprachen-Übersetzung">   
+               <object xml:id="Latein"><objectIdentifier><objectName>001 - Latein</objectName></objectIdentifier></object>
+            </listObject>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <front>
+            <p>
+            </p>
+      </front>
+      <body>
+         <div>
+            <head>
+               <title type="main"><lb n="1"></lb>Julius der erst Römisch 
+                  <lb n="2"></lb>Keiser von seinen <choice><abbr>krieg<am>e</am></abbr><expan>krieg<ex>en</ex></expan></choice><pc>.</pc> erst
+                  <lb n="3"></lb>mals vß dem Latin in Tütsch bracht/ vnd nüw getruckt.</title>
+            </head>
+         </div>
+         <div>
+            <lg>
+               <l n="1">Julius <persName ref="#Caesar">Cesar</persName> binn <choice><sic>ichs</sic><corr>ich</corr></choice> genant.</l>
+               <l n="2">Durch sundre manheit wyt bekant<pc>.</pc></l>
+               <l n="3">Die <persName ref="#Gallier">Gallier</persName> ich bestritten hab</l>
+               <l n="4">Offt die <persName ref="#Germanen">Teütschen</persName> getriben ab<pc>.</pc></l>
+               <l n="5">Jn welcher gstalt ichs hab gethon</l>
+               <l n="6">Schreib ich selbs süben bücher von<pc>.</pc></l>
+               <l n="7">Jm ersten bůch ich vberkumm</l>
+               <l n="8"><choice><orig>Heluetios</orig><reg><persName ref="#Helvetier">Helvetios</persName></reg></choice>/ <choice><sic>Arionistum</sic><corr><persName ref="#Ariovist">Ariovistum</persName></corr></choice><pc>.</pc></l>
+               <l n="9">Jm andern ich beschriben hab</l>
+               <l n="10">Wie sich das <objectName ref="Gallien">Gallier land</objectName> ergab<pc>.</pc></l>
+               <l n="11">Jm dritten ich hernaher fieg</l>
+               <l n="12"><persName ref="#Galba">Galbam</persName>/ den <objectName ref="#VenetischerKrieg"><objectName ref="#Venetien">Venetischen</objectName> krieg</objectName></l>
+               <l n="13">Jm fierden ich vber <objectName ref="#Rhein">Ryn</objectName> kam</l>
+               <l n="14">Schifft darnach in <objectName ref="#Britannien">Britaniam</objectName><pc>.</pc></l>
+               <l n="15">Das fünfft hat noch ein vberfart</l>
+               <l n="16"><persName ref="#Titurius">Titurius</persName> auch besiget wart<pc>.</pc> </l>
+               <l n="17">Das sechst von sitten mancher hand </l>
+               <l n="18">Der <objectName ref="Germanien">Tütschen</objectName>/ und der <objectName ref="#Gallien">Gallier land</objectName><pc>.</pc></l>
+               <l n="19">Das sübend hat ein blegerung hart</l>
+               <l n="20"><persName ref="#Vercingetorix">Vercingentorix</persName> bstritten wart.</l>
+               <l n="21">Das achtst ich nit selbs bschreiben binn</l>
+               <l n="22">Noch dann findstu die warheit drinn<pc>.</pc> </l>
+               <l n="23">Da ich in die gstalt vil iar lang</l>
+               <l n="24">Mit manheit groß nach eeren rang</l>
+               <l n="25">Wurden die <persName ref="#Römer">Roͤmer</persName> hassen mich</l>
+               <l n="26">Verachten auch gar neidiclich</l>
+               <l n="27">Haben mich für ein <choice><sic>fend</sic><corr>feind</corr></choice> geschetzt<pc>.</pc></l>
+               <l n="28">Vnd sich all wider mich gesetzt<pc>.</pc></l>
+               <l n="29">Jch sumt mich nit/ brach vff zůhant</l>
+               <l n="30">Veriagt sie all vsser dem lant<pc>.</pc></l>
+               <l n="31">Herschlůg ir vil/ etlich durch not</l>
+               <l n="32">Bezwang ich auch sunst zů dem dot.</l>
+               <l n="33">Des ich dry bücher naher fieg<pc>.</pc></l>
+               <l n="34">Genant von dem <objectName ref="#Bürgerkrieg">Burgrischen krieg</objectName></l>
+               <l n="35"> Der <objectName ref="#AlexandrinischerKrieg">Alexanderisch krieg</objectName> kürtzlich</l>
+               <l n="36">Der <objectName ref="#AfrikanischerKrieg">Affricanisch</objectName> deßgeleich</l>
+               <l n="37">Volgt naher/ <objectName ref="#Spanien">Hispaniam</objectName> mit mache</l>
+               <l n="38">Besigt ich<pc>.</pc> Als ich solchs volbracht</l>
+               <l n="39">Gen <objectName ref="#Rom">Rom</objectName> fůr ich mit grossem schal</l>
+               <l n="40">Triumphieret eerlich sechß mal.</l>
+               <l n="41">Die Monarchy das Keiserthům</l>
+               <l n="42">Hielt ich gewalticlich mit rům<pc>.</pc></l>
+               <l n="43">Myn bücher zů <objectName ref="#Latein">Latyn</objectName> schrib ich</l>
+               <l n="44"><persName ref="Ringmann">Philesius</persName> hat geteütschet mich etc<pc>.</pc></l>
+            </lg>
+          </div>
+      </body>
+  </text>
+</TEI>

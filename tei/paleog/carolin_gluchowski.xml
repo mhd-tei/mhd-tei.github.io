@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Reinmar der Alte</title>
+         </titleStmt>
+                  <publicationStmt>
+            <p>Lied</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>XY</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div>
+            <p n="1"> 
+               <l n="1"><w>1.</w> <w lemma="ein" lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=1,520,52" msd="ART"><hi style="initial">E</hi>in</w> <w>lieb</w> <w lemma="ich" lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=1,1411,15" msd="PPER">ich</w> <w lemma="mir" lemmaRef="http://www.woerterbuchnetz.de/Lexer?bookref=1,1411,15">mir</w> <w>vil</w> <w>nahe</w> <w>trage</w></l>
+               <l n="2"><w>des</w> <w>ich</w> <w>zeguote</w> <w>nie</w> <w>vergas</w> <w>des</w> <w>ere</w></l>
+               <l n="3"><w>singe</w> <w>ich</w> <w>vnd</w> <w>sage</w> <w>mit</w> <w>guoten</w> <w>triu-</w></l>
+               <l n="4"><w>wen</w> <w>mein</w> <w>ich</w> <w>das</w> <pc>.</pc> <w>si</w> <w>mvos</w> <w>mir</w></l>
+               <l n="5"><w>iemer</w> <w>sin</w> <w>vor</w> <w>allen</w> <w>wiben</w> <w>an</w> <w>dem</w> <w>mvote</w> <w>wil</w></l>
+               <l n="6"><w>ich</w> <w>manigiu</w> <w>iar</w> <w>beliben</w> <pc>.</pc> <w>was</w> <w>bedarf</w> <w>ich</w> <w>leides</w></l>
+               <l n="7"><w>mere</w> <pc>.</pc> <w>wan</w> <w>dc</w> <w>ich</w> <w>si</w> <w>froemde</w> <w>dc</w> <w>mvet</w> <w>mich</w> <w>dike</w> <w>sere</w><pc>.</pc></l>
+            </p>
+             <p n="2">
+                <l n="1"><w>2</w><pc>.</pc> <w>Es</w> <w>wirt</w> <w>ein</w> <w>man</w> <w>der</w> <w>sinne</w> <w>hat</w> <w>vil</w> <w>lih</w></l>
+                <l n="2"><w>te</w> <w>selic</w> <w>vnd</w> <w>wert</w> <w>der</w> <w>mit</w> <w>den</w> <w>liuten</w> <w>vm</w></l>
+                <l n="3"><w>begat</w> <w>des</w> <w>herze</w> <w>niht</w> <w>wan</w> <w>eren</w> <w>gert</w><pc>.</pc> <w>dc</w> <w>wen</w></l>
+                <l n="4"><w>det</w> <w>im</w> <w>sin</w> <w>vngemvote</w><pc>.</pc> <w>sich</w> <w>sol</w> <w>ein</w> <w>man</w> <w>fli</w></l>
+                <l n="5"><w>sen</w> <w>maniger</w> <w>guete</w> <pc>.</pc> <w>ist</w> <w>ieman</w> <w>der</w> <w>dc</w> <w>nide</w><pc>.</pc></l>
+                <l n="6"><w>dc</w> <w>ist</w> <w>ein</w> <w>so</w> <w>gefueger</w> <w>schade</w> <w>den</w> <w>ich</w> <w>fuor</w> <w>al</w></l>
+                <l n="7"><w>die</w> <w>werlt</w> <w>vil</w> <w>gerne</w> <w>lide</w><pc>.</pc></l>
+             </p>  
+             <p n="3">
+                <l n="1"><w>3</w><pc>.</pc> <w>Es</w> <w>ist</w> <w>ein</w> <w>nit</w> <w>der</w> <w>niht</w> <w>enkan</w> <pc>.</pc> <w>verheln</w></l>
+                <l n="2"><w>an</w> <w>den</w> <w>liuten</w> <w>sich</w> <pc>.</pc> <w>war</w> <w>vmbe</w> <w>sprichet</w> </l>
+                <l n="3"><w>manic</w> <w>man</w> <w>wes</w> <w>toert</w> <w>sich</w> <w>der</w> <w>vnd</w> <w>meinet</w></l>
+                <l n="4"><w>mich</w> <w>dc</w> <w>kvnde</w> <w>ich</w> <w>im</w> <w>gesagen</w> <w>ob</w> <w>ich</w> <w>wol</w></l>
+                <l n="5"><w>de</w> <w>ich</w> <w>en</w> <w>wande</w> <w>niht</w> <w>dc</w> <w>ieman</w> <w>fragen</w> <w>sol</w></l>
+                <l n="6"><w>de</w> <w>er</w> <w>enpfiege</w> <w>schoner</w> <w>sinne</w> <w>wawn</w> <w>nie</w> <w>man</w> <w>lebt</w> <w>er</w> <w>envinde</w> <w>wol</w> <w>sines</w> <w>herzen</w> <w>koniginne</w><pc>.</pc></l>
+             </p>
+             <p n="4">
+                <l n="1"><w>4</w><pc>.</pc> <w>si</w> <w>koment</w> <w>vnderwilent</w> <w>her</w> <w>die</w> <w>bas</w> <w>da</w></l>
+                <l n="2"><w>heime</w> <w>moehten</w> <w>sin</w> <pc>.</pc> <w>ein</w> <w>ritter</w> <w>des</w> <w>ich</w> <w>lange</w></l>
+                <l n="3"><w>ger</w> <pc>.</pc> <w>bedahte</w> <w>er</w> <w>bas</w> <w>den</w> <w>willen</w> <w>min</w> <pc>.</pc> <w>so</w> <w>we</w></l>
+                <l n="4"><w>er</w> <w>zallen</w> <w>ziten</w> <w>hie</w> <pc>.</pc> <w>als</w> <w>ich</w> <w>in</w> <w>gerne</w> <w>sehe</w> .</l>
+                <l n="5"><w>owe</w> <w>was</w> <w>svochent</w> <w>die</w> <pc>.</pc> <w>die</w> <w>niden</w> <w>dc</w> <w>ob</w> <w>ie</w></l>
+                <l n="6"><w>man</w> <w>guoter</w> <w>lieb</w> <w>geschehe</w><pc>.</pc></l>
+            </p>
+             <p n="5">
+                <l n="1"><w>5</w><pc>.</pc> <w>Mir</w> <w>ist</w> <w>beschehen</w> <w>dc</w> <w>ich</w> <w>nih</w>t <w>bin</w> <pc>.</pc> <w>langer</w></l>
+                <l n="2"><w>fro</w> <w>wawn</w> <w>vntz</w> <w>ich</w> <w>lebe</w> <pc>.</pc> <w>si</w> <w>wundert</w> <w>wer</w></l>
+                <l n="3"><w>mir </w><w>schonen</w> <w>sin</w> <pc>.</pc> <w>vnd</w> <w>dc</w> <w>hohgemvete</w> <w>gebe</w> <w>dc</w></l>
+                <l n="4"><w>ich</w> <w>zeder</w> <w>werlte</w> <w>niht</w> <w>getar</w> <pc>.</pc> <w>zerehte</w> <w>also</w></l>
+                <l n="5"><w>gebaren</w> <pc>.</pc> <w>nie</w> <w>genam</w> <w>ich</w> <w>frowen</w> <w>war</w> <pc>.</pc> <w>ich</w> <w>wer</w></l>
+                <l n="6"><w>in</w> <w>holt</w> <w>die</w> <w>mir</w> <w>zemasse</w> <w>waren</w><pc>.</pc></l>
+             </p>
+             <p n="6">
+                <l n="1"><w>6</w><pc>.</pc> <w>Genade</w> <w>svochet</w> <w>an</w> <w>ein</w> <w>wib</w> <pc>.</pc> <w>min</w> <w>dienst</w></l>
+                <l n="2"><w>nv</w> <w>vil </w><w>manigen</w> <w>tac</w><pc>.</pc> <w>durh</w> <w>einen</w> <w>also</w> <w>guo</w></l>
+                <l n="3"><w>ten</w> <w>lib</w> <pc>.</pc> <w>die</w> <w>not</w> <w>ich</w> <w>gerne</w> <w>liden</w> <w>mac</w> <pc>.</pc> <w>ich</w> <w>weis</w></l>
+                <l n="4"><w>wol</w> <w>dc</w> <w>si</w> <w>mich</w> <w>geniessen</w> <w>lat</w> <pc>.</pc> <w>miner</w> <w>gros</w></l>
+                <l n="5"><w>sen</w> <w>stete</w> <pc>.</pc> <w>wa</w> <w>neme</w> <w>si</w> <w>so</w> <w>boesen</w> <w>rat</w> <pc>.</pc> <w>dc</w> <w>si</w> </l>
+                <l n="6">an mir missetete <pc>.</pc></l>
+             </p>
+             <p n="7">
+                <l n="1">7<pc>.</pc> <w>Gnaden</w> <w>ich</w> <w>gedenken</w> <w>sol</w> <pc>.</pc> <w>an</w> <w>ime</w> <w>der</w> <w>mi</w></l>
+                <l n="2"><w>nen</w> <w>willen</w> <w>tuot</w> <pc>.</pc> <w>sit</w> <w>dc</w> <w>er</w> <w>mir</w> <w>getrv</w></l>
+                <l n="3"><w>wer</w> <w>wol</w> <pc>.</pc> <w>so</w> <w>wil</w> <w>ich</w> <w>hoehen</w> <w>sinen</w> <w>mvot</w> <pc>.</pc> <w>wese</w></l>
+                <l n="4"><w>er</w> <w>mit</w> <w>rehter</w> <w>stete</w> <w>fro</w> <pc>.</pc> <w>ich</w> <w>sage</w> <w>im</w> <w>liebiu</w></l>
+                <l n="5"><w>mere</w> <pc>.</pc> <w>dc</w> <w>ich</w> <w>in</w> <w>gelege</w> <w>also</w> <w>mich</w> <w>duhte</w></l>
+                <l n="6"><w>es</w> <w>vil</w> <w>ob</w> <w>es</w> <w>der</w> <w>keiser</w> <w>were</w></l>
+                <l n="7"></l>
+             </p>
+            <p n="8">
+               <l n="1">8<pc>.</pc><w>Ich</w><w>han</w><w>vil</w> <w>ledekliche</w><w>braht</w><pc>.</pc> <w>in</w> <w>ir</w> <w>genade</w></l>
+               <l n="2"><w>mihen</w> <w>lib </w><pc>.</pc> <w>vnd</w> <w>ist</w> <w>mir</w> <w>noh</w> <w>vil</w> <w>vngedaht</w> <pc>.</pc></l>
+               <l n="3"><w>dc</w> <w>iemer </w><w>werde</w> <w>dehein</w> <w>ander</w> <w>wib</w> <pc>.</pc> <w>div</w></l>
+               <l n="4"><w>von</w> <w>ir</w> <w>gescheide</w> <w>minen</w> <w>mvot</w> <pc>.</pc> <w>swc</w> <w>diu</w> <w>werlt</w></l>
+               <l n="5"><w>mir</w> <w>zeleide</w> <w>tuot</w> <pc>.</pc> <w>dc</w> <w>belibet</w> <w>von</w> <w>mir</w> <w>vnge</w></l>
+               <l n="6"><w>klaget</w> <pc>.</pc> <w>wan</w> <w>ir</w> <w>niden</w><w> moht</w> <w>ich</w> <w>nie</w> <w>so</w> <w>wol</w></l>
+               <l n="7"><w>erliden</w> <pc>.</pc> <w>ein</w> <w>liebes</w> <w>mere</w> <w>ist</w> <w>mir</w> <w>gelaget</w><pc>.</pc></l>
+            </p>
+            <p n="9">
+               <l n="1">9<pc>.</pc> Mir kvmt eteswenne ein tac <pc>.</pc> dc ich vor</l>
+               <l n="2">vil gedanken niht <pc>.</pc> geseingen noh gela</l>
+               <l n="3">chen mac <pc>.</pc> so wenet menger der mich seht <pc>.</pc></l>
+               <l n="4">dc ich in grosser swere si <pc>.</pc> mir ist vil lih</l>
+               <l n="5">te ein froiede nahe ir wil diu schone triu</l>
+               <l n="6">we enpflegen vnd diu gvote <pc>. </pc>so ist also wol </l>
+               <l n="7">mir zemvote als der bi frowen hat gelegen<pc>.</pc></l>
+            </p>
+            <p n="10">
+               <l n="1">10<pc>.</pc> Ich wide iemerlichen alt<pc>.</pc> sol mich diu</l>
+               <l n="2">werlt also vergan <pc>.</pc> dc ich dekeinen gewalt <pc>.</pc></l>
+               <l n="3">an minen lieben fiunde han <pc>.</pc> dc er tete ein </l>
+               <l n="4">teil des willen min <pc>.</pc> mich mvet vnd sol im </l>
+               <l n="5">ieman lieber sin <pc>.</pc> botte nv sage im niht</l>
+               <l n="6">me <pc>.</pc> wan mir ist leide vnd fiurhte des dc </l>
+               <l n="7">sich scheide diu triuwe der wir plagene<pc>.</pc></l>
+            </p>
+            <p n="11">
+               <l n="1">11. Wie ist im zemvote wundert mich <pc>.</pc> den</l>
+               <l n="2">herzekliche lieb geschiht <pc>.</pc> er selig</l>
+               <l n="3">man da sweit er sich als ich wol were</l>
+               <l n="4">ich enweis es niht doch sehe ich gerne</l>
+               <l n="5">ie er tete <pc>.</pc> ob er iht pflege wunnekla</l>
+               <l n="6">cher stete <pc>. </pc>diu sol im wesen von rehte bi got</l>
+               <l n="7">gebe dc ich erkenne noch wie solhem</l>
+               <l n="8">lebenne si<pc>.</pc></l>
+            </p>
+            <p n="12">
+               <l n="1">12<pc>.</pc> Ich weis bi mir wol dc ein zage <pc>.</pc> vnsanf</l>
+               <l n="2">te ein sinnig wib bestat <pc>.</pc> ich sach si wen</l>
+               <l n="3">ne ich alle tage <pc>.</pc> dc mich des iemer wun</l>
+               <l n="4">der hat <pc>.</pc> dc ich niht redde swas ich wol</l>
+               <l n="5">te <pc>.</pc> als ich sin beginnen vnderwilent solte <pc>.</pc></l>
+               <l n="6">so gesweie ich dc ich niht ensprach <pc>.</pc> wan</l>
+               <l n="7">ich wol wisse dc nieman lieb vor ir ge</l>
+               <l n="8">schach</l>
+            </p>
+            <p n="13">
+               <l n="1">13<pc>.</pc> Do sprechens zit was </l>
+               <l n="2">wider diu wib <pc>.</pc> do warb ich als ein</l>
+               <l n="3">ander man <pc>.</pc> do wart mir einiu als der lib von der ich nie wan leit gewan <pc>.</pc> do</l>
+               <l n="4">wande ich ie si woltes wenden <pc>.</pc> bete ich</l>
+               <l n="5">si noch ich kvndes niht verenden <pc>.</pc> nv han</l>
+               <l n="6">ich mir ein leben genomen <pc>.</pc> dc sol ob got von</l>
+               <l n="7">himel wil mir zebessern statten komen <pc>.</pc></l>
+            </p>
+            <p n="14">
+               <l n="1">14<pc>.</pc> Ich lebte nach der liute sage <pc>.</pc> wan dc si</l>
+               <l n="2">niht geliche iehent ale ich ein hohes herze</l>
+               <l n="3">trage <pc>.</pc> vnd si mich wol gemvote sehent <pc>.</pc> des</l>
+               <l n="4">spottet einer sere <pc>.</pc> der an der giht mir si </l>
+               <l n="5">diu froeode ein ere <pc>.</pc> nvn weis ich wem ich</l>
+               <l n="6">volgen sol <pc>.</pc> het ich wisheit vnd sin so ret </l>
+               <l n="7">ich gerne wol<pc>.</pc></l>
+            </p>
+            <p n="15">
+               <l n="1">15<pc>.</pc> Gewan ich ie deheinen mvot der hohe</l>
+               <l n="2">stuont den han ich noch <pc>.</pc> min leben</l>
+               <l n="3">dvnket mich vil gvot <pc>.</pc> vnd ist es niht so</l>
+               <l n="4">wen ichs doch. es tvot mir wol was wil</l>
+               <l n="5">ich sin mere <pc>.</pc> vnd furhte vnrehten spot</l>
+               <l n="6">niht zesere <pc>.</pc> vnd kan wol liden loesen has<pc>.</pc></l>
+               <l n="7">solt ich sin also die lenge pflegen ich ger</l>
+               <l n="8">te sin niemer bas <pc>.</pc></l>
+            </p>
+            <p n="16">
+               <l n="1">16<pc>.</pc> Min herze ist swere zaller zit <pc>.</pc> swenne</l>
+               <l n="2">ich der schonen niht ensihe <pc>.</pc> si mvgen</l>
+               <l n="3">es lassen ane nit <pc>.</pc> ob ich der warheit im</l>
+               <l n="4">vergihe <pc>.</pc> wan si mir wonet in minen sinne <pc>.</pc></l>
+               <l n="5">vnd ich die lieben ane masse minne <pc>.</pc> naher</l>
+               <l n="6">danne in dem herzen min <pc>.</pc> sine moehte von</l>
+               <l n="7">ir gvete mir niht lange froemde sin<pc>.</pc></l>
+            </p>
+            <p n="17">
+               <l n="1"> 17<pc>.</pc> Mich gerov noch nie das ich den sin an</l>
+               <l n="2">ein so schone wib verlie <pc>.</pc> es dvnket mih</l>
+               <l n="3">ein guot gewin ir gruos mich minneklich</l>
+               <l n="4">enpfie <pc>.</pc> vil gerne ich ir des iemer lone <pc>.</pc> si</l>
+               <l n="5">enpfie <pc>.</pc> vil gerne ich ir des iemer lone <pc>.</pc> si</l>
+               <l n="6">lebt mit zuhte wunneklichen schone . der tv</l>
+               <l n="7">genden si geniessen sol <pc>.</pc> mir geviel in minen</l>
+               <l n="8">ziten nie ein wib so rehte wol<pc>.</pc></l>
+            </p>
+            <p n="18">
+               <l n="1"> 18<pc>.</pc> Got hat gezieret wol ir leben <pc>.</pc> also dc</l>
+               <l n="2">michs genvegen wil<pc>.</pc> vnd hat zefroeiden</l>
+               <l n="3">mir gegeben <pc>.</pc> an einen wibe liebes vil sol</l>
+               <l n="4">mir ir stete komen zegvote <pc>.</pc> dc gilt ich ir mit semlichen mvote <pc>.</pc> vnd nide nieman dvch </l>
+               <l n="5">sin heil <pc>.</pc> wand ich zewunsche danne han der</l>
+               <l n="6">werlde minen teil<pc>.</pc></l>
+            </p>
+            <p n="19">
+               <l n="1">19<pc>.</pc> Ist dc mich dienest helfen sol <pc>.</pc> als es mangen </l>
+               <l n="2">hat getan<pc>.</pc> so gewinnet mir ir hulde wol<pc>.</pc></l>
+               <l n="3">ein wille den ich lange han <pc>.</pc> der riet mir</l>
+               <l n="4">dc ich si bete <pc>.</pc> vnd zvrnde sis dc ichs dannoh</l>
+               <l n="5">tete<pc>.</pc> nv tuon ich es swas so mir geschiht<pc>.</pc></l>
+               <l n="6">in reiner wise ein selig wib lasse ich so</l>
+               <l n="7">lihte niht<pc>.</pc></l>
+            </p>
+            <p n="20">
+               <l n="1"> 20<pc>.</pc> So es iender nahet gegen dem tage<pc>.</pc> so ge</l>
+               <l n="2">tar ich niht gefragen ist es tac<pc>.</pc>dc kv</l>
+               <l n="3">mir von so grosser klage<pc>.</pc>dc es mir niht</l>
+               <l n="4">zehelfe komen mac<pc>.</pc> doch gedenke ich wol</l>
+               <l n="5">das ich sin anders pflag<pc>.</pc> hie vor do mir</l>
+               <l n="6">diu sorge niht so zeherzen lac<pc>.</pc> iemer an dem</l>
+               <l n="7">morgen troeste ich mich der vogel sanc<pc>.</pc> mir</l>
+               <l n="8">enkome ir helfe an der zit<pc>.</pc> mir ist beide sv</l>
+               <l n="9">mer vnd winter alzelanc<pc>.</pc></l>
+            </p>
+         </div>
+      </body>
+  </text>
+</TEI>

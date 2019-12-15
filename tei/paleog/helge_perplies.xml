@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>XML-Praxisworkshop: Der Kanzler, Ich hab mich underwunden</title>
+                <respStmt>
+                    <resp>konzipiert von</resp>
+                    <persName>Helge Perplies</persName>
+                </respStmt>
+                <funder><orgName sameAs="sfb">SFB Materiale Textkulturen</orgName></funder>
+            </titleStmt>
+            <publicationStmt>
+                <p>Für Übungszwecke, nicht zur weiteren Veröffentlichung gedacht.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Heidelberg</settlement>
+                        <repository>Universitätsbibliothek</repository>
+                        <idno>Cod. Pal. germ. 848</idno>
+                        <msName>Große Heidelberger Liederhandschrift</msName>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness/>
+                </listWit>
+                <listPerson type="figuren">
+                    <person/>
+                </listPerson>
+                <listPerson>
+                    <person xml:id="MB">
+                        <persName>Manuel Braun</persName>
+                        <idno corresp="http://d-nb.info/gnd/1027730957">1027730957</idno>
+                    </person>
+                    <person>
+                        <persName xml:id="SS">Stephanie Seidl</persName>
+                        <idno type="GND" corresp="http://d-nb.info/gnd/1057563404">1057563404</idno>
+                    </person>
+                    <person xml:id="SG">
+                        <persName>Sonja Glauch</persName>
+                        <idno corresp="http://d-nb.info/gnd/1027539750">1027539750</idno>
+                    </person>
+                    <person>
+                        <persName xml:id="FK">Florian Kragl</persName>
+                        <idno type="GND" corresp="http://d-nb.info/gnd/130033766">130033766</idno>
+                    </person>
+                    <person>
+                        <persName xml:id="HB">Horst Brunner</persName>
+                        <idno type="GND" corresp="http://d-nb.info/gnd/12073169X">12073169X</idno>
+                    </person>                    
+                    <person>
+                        <persName xml:id="BW">Burghart Wachinger</persName>
+                        <idno type="GND" corresp="http://d-nb.info/gnd/105633437">105633437</idno>
+                    </person>                    
+                    <person>
+                        <persName xml:id="KG">Klaus Grubmüller</persName>
+                        <idno type="GND" corresp="http://d-nb.info/gnd/129328472">129328472</idno>
+                    </person>                    
+                    <person>
+                        <persName xml:id="SO">Sabine Obermaier</persName>
+                        <idno type="GND" corresp="http://d-nb.info/gnd/105318378X">105318378X</idno>
+                    </person>
+                </listPerson>
+                <listBibl>
+                    <bibl xml:id="LDM" corresp="http://www.ldm-digital.de/show.php?au=Kanz&amp;hs=C&amp;lid=2063">
+                        <title> Deutsche Lyrik des frühen und hohen Mittelalters, hg. von <persName>Manuel Braun</persName> und <persName>Stephanie Seidl</persName>, in: Lyrik des deutschen Mittelalters online hg. von <persName>Manuel Braun</persName>, <persName>Sonja Glauch</persName> und <persName>Florian Kragl</persName></title>
+                        <editor> 
+                            <persName ref="#MB"> Manuel Braun</persName>
+                            <persName ref="#SS"> Stephanie Seidl</persName>
+                            <persName ref="#SG"> Sonja Glauch</persName>
+                            <persName ref="#FK"> Florian Kragl</persName>
+                        </editor>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <!-- Falls vorhanden, kann man hier auf unterschiedlicher Schreiberhände verweisen-->
+                <handNote/>
+            </handNotes>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="poem">
+                <pb n="424r"/>
+                <cb n="a"/>
+                <lg n="1" xml:id="C1" type="stanza" rhyme="abcdabcdefefghgh">
+                    <l><lb n="1"/><w><hi rend="initial red and blue" n="6">I</hi>ch</w><w>hab</w><w>mich</w><w><choice><orig>v</orig><reg>u</reg></choice>nderwund<choice><am>ē</am><ex>en</ex></choice></w><pc type="ms">·</pc></l>
+                    <l><w>ze</w><w>sing<choice><am>ē</am><ex>en</ex></choice></w><pc type="editorial">,</pc><w>ob</w><lb n="2"/><w>ich</w><w>mag</w><pc type="editorial">.</pc><pc type="ms">·</pc></l>
+                    <l><w>ze</w><w>tihten</w><w>truwe</w><w>ich</w><w>vind<choice><am>ē</am><ex>en</ex></choice></w><pc type="editorial">,</pc><pc type="ms">·</pc></l>
+                    <l><w>des</w><w>wi<lb n="3"/>sent</w><w>mich</w><w>du̍</w><w>buͦch</w><pc type="editorial">.</pc><pc type="ms">·</pc></l>
+                    <l><w>Noe</w><w>mit</w><w>schand<choice><am>ē</am><ex>en</ex></choice></w><w>fund<choice><am>ē</am><ex>en</ex></choice></w><pc type="ms">·</pc></l>
+                    <l><lb n="4"/><w>wart</w><pc type="editorial">,</pc><w>do</w><w>er</w><w>trunken</w><w>lag</w><pc type="editorial">,</pc><pc type="ms">·</pc></l>
+                    <l><w>v<choice><am>ō</am><ex>on</ex></choice></w><w>drin</w><w>sin<choice><am>ē</am><ex>en</ex></choice></w><w>kind<choice><am>ē</am><ex>en</ex></choice></w><pc type="editorial">:</pc><pc type="ms">·</pc></l>
+                    <l><lb n="5"/><w>d<choice><am>ē</am><ex>em</ex></choice></w><w>ein<choice><am>ē</am><ex>en</ex></choice></w><w>wart</w><w>der</w><w>fluͦch</w><pc type="editorial">.</pc><pc type="ms">·</pc></l>
+                    <l><w>Kam</w><w>vant</w><w>sin<choice><am>ē</am><ex>en</ex></choice></w><w>va<choice><am>t ͛</am><ex>ter</ex></choice></w><lb n="6"/><w>blozen</w><pc type="editorial">,</pc><pc type="ms">·</pc></l>
+                    <l><w>mit</w><w>spot</w><w>in</w><w>schalle</w><w>er</w><w>schrei</w><pc type="editorial">:</pc><pc type="ms">·</pc></l>
+                    <l>&quot;<w>seht</w><lb n="7"/><w><choice><orig>v</orig><reg>u</reg></choice>mb</w><w>d<choice><am>ē</am><ex>en</ex></choice></w><w>trunk<choice><am>ē</am><ex>en</ex></choice></w><w>boz<choice><am>ē</am><ex>en</ex></choice></w><pc type="editorial">,</pc><pc type="ms">·</pc></l>
+                    <l><w>sin</w><w>wisheit</w><w>ist</w><w>enzwei</w><pc type="editorial">!</pc><pc type="ms">·</pc>&quot;</l>
+                    <l><lb n="8"/><w>Sem</w><w><choice><orig>v</orig><reg>u</reg></choice><choice><am>n̄</am><ex>nde</ex></choice></w><w>Japhet</w><pc type="editorial">,</pc><w>die</w><w>beide</w><pc type="editorial">,</pc><pc type="ms">·</pc></l>
+                    <l><w>im</w><w>leit<choice><am>ē</am><ex>en</ex></choice></w><w><choice><orig>v</orig><reg>u</reg></choice><choice><am>b ͛</am><ex>ber</ex></choice>uber</w><w>ir</w><lb n="9"/><w>kleit</w><pc type="editorial">,</pc><pc type="ms">·</pc></l>
+                    <l><w>in</w><w>tet</w><w>sin</w><w>schame</w><w>leide</w><pc type="editorial">.</pc><pc type="ms">·</pc></l>
+                    <l><w>da</w><w>huͦb</w><w>sich</w><lb n="10"/><w>edelkeit</w><pc type="editorial">.</pc><pc type="ms">·</pc></l>
+                </lg>
+            </div>
+            <div type="commentary" source="#LDM">
+                <head> Ich hab mich underwunden </head>
+                <div>
+                    <head>ÜBERLIEFERUNG: </head>
+                    <p> Die Strophe ist unikal in C tradiert, sie eröffnet dort das
+                        Kanzler-Korpus.</p>
+                </div>
+                <div>
+                    <head>FORM: </head>
+                    <p> Kanzonenstrophe mit repetiertem Steg und drittem Stollen: .3-a .3b .3-c .3d
+                        / .3-a .3b .3-c .3d // .3-e .3f / .3-e .3f / .3-g 3h 3-g 3h</p>
+                    <p> V. 9 ist auftaktlos und überfüllt. </p>
+                </div>
+                <div>
+                    <head>ERLÄUTERUNGEN: </head>
+                    <p> Die Strophe erfüllt insofern die &quot;Funktion einer Einleitung&quot; (Zach, S. 95),
+                        als ihr Sprecher seine Absicht verkündet, zu singen (V. 2) und zu dichten
+                        (V. 3; zur hier erfolgten Abgrenzung der beiden Termini s. Obermaier, S.
+                        291), und sich zur Legitimierung seines Tuns auf du̍ buͦch (V. 4) als
+                        autoritative Quelle beruft. Im vorliegenden Spruch handelt es sich dabei um
+                        das Alte Testament, aus welchem er die Geschichte der Noah-Söhne Ham, Sem
+                        und Japhet aufgreift (1 Mos 9, 18–27, zur mittelalterlichen Rezeption vgl.
+                        allgemein Grubmüller): Während Ersterer seinen betrunkenen und entblößten
+                        Vater verspottet und von diesem anschließend verflucht wird, zeigen die
+                        Letzteren beiden Mitleid mit diesem. In ihrem Verhalten liege deshalb der
+                        Ursprung der edelkeit (V. 16) begründet. </p>
+                </div>
+                <div>
+                    <head>LITERATUR: </head>
+                    <p> Brunner, H. und B. Wachinger (Hg.): Repertorium der Sangsprüche und
+                        Meisterlieder des 12. bis 18. Jahr­hunderts. 16 Bde. Tübingen 1986–2009, Bd.
+                        IV, S. 150; Grubmüller, K.: Nôes Fluch. Zur Begründung von Herrschaft und
+                        Unfreiheit in mittelalterlicher Literatur, in: Medium aevum deutsch.
+                        Beiträge zur deutschen Literatur des hohen und späten Mittelalters. Fs. Kurt
+                        Ruh, hg. von D. Huschenbett u. a. Tübingen 1979, S. 99–​119; Obermaier, S.:
+                        Von Nachtigallen und Handwerkern: »Dichtung über Dichtung« in Minnesang und
+                        Sangspruchdichtung. Tübingen 1995 (Hermaea N.F. 75), S. 291; Zach, R.-E.:
+                        Der Kanzler. Untersuchungen zur literarischen Technik eines Spruch- und
+                        Lieddichters um 1300. Graz 1973, S. 215–218.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
