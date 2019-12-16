@@ -57,6 +57,14 @@ head {
     display: block;
 }
 
+editor {
+    margin-left: 25px;
+}
+
+editor:before {
+    content: "Herausgegeben von: ";
+}
+
 
 w {
     margin-left: 5px;
