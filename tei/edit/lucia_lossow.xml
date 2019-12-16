@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Partonopier und Meliur</title>
+                <author>Konrad von Würzburg</author>
+            </titleStmt>
+            <publicationStmt><p>experiment</p></publicationStmt>
+            <sourceDesc><p>mgf 1064</p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            
+           
+             
+           
+                     
+                 
+                    <pb n="16r"/>
+                    <cb n="a"/>
+                    
+                 
+                <lg>
+                    <l n="1"><w><hi rend="redStroke">d</hi>o</w><w><choice><orig>cham</orig><reg>kam</reg></choice></w><w>dort</w><w>her</w><w>geschliche<choice><am>n</am><ex>en</ex></choice></w></l>
+                    <l n="2"><hi rend="redStroke">s</hi>tille <choice><orig>v</orig><reg>u</reg></choice>nd <w>tugenlich<choice><am>n</am><ex>en</ex></choice></w></l>
+                </lg>
+                <lg>
+                    <l n="3"><w>ein</w> <w>mensch</w> <w><choice><orig>zü</orig><reg>zuo</reg></choice></w> <w>der</w> <w><choice><orig>petstat</orig><reg>betstat</reg></choice></w></l>
+                    <l n="4"><w>so</w> <w>leise</w> <w><choice><orig>ain</orig><reg>ein</reg></choice> </w><w><choice><orig>phabe</orig><reg>phawe</reg></choice></w> <w>nie</w> <w>getrat</w></l>
+                </lg>
+                <lg>
+                    <l n="5"><w>sam</w> <w>es</w> <w>geschriten</w> <w><choice><orig>cham</orig><reg>kam</reg></choice></w> <w>dar</w><w> in</w></l>
+                    <l n="6"><w>aller</w> <w>erst</w> <w>do</w> <w>was</w> <w>daz</w> <w><choice><orig>hercze</orig><reg>herze</reg></choice></w> <w>sein</w></l>
+                </lg>
+                <lg>
+                    <l n="7"><w>an</w> <w><choice><orig>eÿtele</orig><reg>eitel</reg></choice></w> <w><choice><orig>v</orig><reg>u</reg></choice>nd</w> <w>taub</w></l>
+                    <l n="8"><w>er</w> <w><choice><orig>czittert</orig><reg>zittert</reg></choice></w> <w>als</w> <w><choice><orig>ain</orig><reg>ein</reg></choice></w> <w><choice><orig>espan laub</orig><reg>espenloup</reg></choice></w></l>
+                </lg>
+                <lg>
+                    <l n="9"><w><choice><orig>v</orig><reg>u</reg></choice>nd</w> <w><choice><orig>hette</orig><reg>haete</reg></choice></w> <w>nach</w> <w>sein</w> <w>verloren</w></l>
+                    <l n="10"><w>der</w> <w>sorgen</w> <w>distele</w> <w><choice><orig>v</orig><reg>u</reg></choice>nd</w><w> ir</w> <w><choice><orig>doren</orig><reg>dorn</reg></choice></w></l>
+                </lg>
+                <lg>
+                    <l n="11"><w>stachen</w><w> paide</w><w> in</w> <w>sein</w><w> muet</w></l>
+                    <l n="12"><w>der</w> <w>knab</w> <w>salig</w> <w>vnd</w> <w>auch</w> <w>guet</w></l>
+                </lg>
+                <lg>
+                    <l n="13"> <w>ward</w> <w>in</w> <w>grimmen</w> <w>sware</w> <w>pracht</w></l>
+                    <l n="14"><w>was</w> <w>solt</w> <w>er</w> <w>anders</w> <w>han</w> <w>gedackt</w></l>
+                </lg>
+                <lg>
+                    <l n="15"> <w>wann </w><w>das </w><w>der</w> <w>tewfel</w> <w>wer </w><w>chumen</w></l>
+                    <l n="16"><w> vnd </w><w>in</w> <w>da</w> <w>wollte</w> <w>han</w> <w>genumen</w></l>
+                </lg>
+           </body>  
+                
+                
+    </text>
+</TEI>    
+                
+                
+                
+                
+
+ 
+
+
+
