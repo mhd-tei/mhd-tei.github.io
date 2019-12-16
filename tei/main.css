@@ -35,6 +35,10 @@ msIdentifier:before {
     content: "Source: "
 }
 
+listPerson {
+    display: none;
+}
+
 body:before {
     content: "Text:";
 }
@@ -52,4 +56,8 @@ div {
 
 w {
     margin-left: 5px;
+}
+
+p {
+    display: block
 }
