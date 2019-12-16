@@ -7,6 +7,10 @@ abbr {
     display: none;
 }
 
+sic {
+    display: none;
+}
+
 lg {
     padding: 100px;
     display: block;
