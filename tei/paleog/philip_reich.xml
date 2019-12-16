@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../main.css"?>
+<?xml-stylesheet type="text/css" href="css/main.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cum in orbem universum</title>
+                <respStmt>
+                    <resp>vorgelegt von</resp>
+                    <persName>Philip Reich</persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Mögliche Vorarbeit für eine potentielle Veröffentlichung in KEMTE</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>München</settlement>
+                        <repository>BSB</repository>
+                        <idno>Cod. lat. mon. 357</idno>
+                        <msName>Codex Buranus</msName>
+                    </msIdentifier>
+                </msDesc>
+                <listWit>
+                    <witness xml:id="ed.Vollmann">Carmina Burana. Ed. and transl. Benedikt Konrad
+                        Vollmann. Frankfurt a. M. 1987 (= Bibliothek des Mittelalters 13).</witness>
+                    <witness xml:id="ed.Bischoff">Carmina Burana. Ed. and transl. Otto Schumann and
+                        Bernhard Bischoff. Heidelberg 1970.</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <handNotes>
+                <!-- Falls vorhanden, kann man hier auf unterschiedlicher Schreiberhände verweisen-->
+                <handNote/>
+            </handNotes>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="CB">
+                <pb n="95v"/>
+                <cb n="a"/>
+                <head><w lemma="item"><choice><orig><hi rend="color:red" n="1">IT̄</hi></orig><corr resp="#ed.Vollmann">ITEM</corr></choice></w><pc>.</pc></head>
+                <lg n="1" rhyme="aaaa">
+                    <l n="1"><lb n="3"/><w lemma="cum"><hi rend="color:red" n="2">C</hi><hi rend="color:black_red">VM</hi></w>
+                        <pc resp="#ed.Vollmann">»</pc>
+                        <w lemma="in"><hi rend="color:black_red">I</hi>n</w>
+                        <w lemma="orbis">orbem</w>
+                        <w lemma="universus"><choice><orig>unıuerſum</orig><corr resp="#ed.Vollmann"
+                                    >uniuer–sum</corr></choice></w><pc resp="#ed.Vollmann">«</pc>
+                        <w lemma="decanto"><choice><orig>decantat</orig><corr resp="#ed.Vollmann"
+                                    >decantatur</corr></choice></w>
+                        <pc resp="#ed.Vollmann">»</pc><rhyme type="a"><w lemma="eo"
+                                        ><choice><orig>ıte</orig><corr resp="#ed.Vollmann"
+                                        >ite!</corr></choice></w></rhyme><pc resp="#ed.Vollmann"
+                            >«</pc><choice><orig>.</orig><corr resp="#ed.Vollmann"
+                        >,</corr></choice></l>
+                    <l n="2"><w lemma="sacerdos"><choice><orig>ſacerdo<lb n="4"/>tes</orig><corr
+                                    resp="#ed.Vollmann">sacerdotes</corr></choice></w>
+                        <w lemma="ambulo">ambulant</w>
+                        <pc resp="#ed.Vollmann">,</pc>
+                        <w lemma="curro">currunt</w>
+                        <w lemma="coenobita"><rhyme type="a">cenobitę</rhyme></w>. </l>
+                    <l n="3"><w lemma="et"><choice><orig>⁊</orig><corr resp="#ed.Vollmann"
+                                >et</corr></choice></w>
+                        <w lemma="a">ab</w>
+                        <w lemma="evangelium">ewangelio</w>
+                        <w lemma="iam">iam</w>
+                        <lb n="5"/><w lemma="surgo"><choice><orig>ſurgunt</orig><corr
+                                    resp="#ed.Vollmann">surgunt</corr></choice></w>
+                        <w lemma="levita"><rhyme type="a"
+                                >leuitę</rhyme></w><choice><orig>.</orig><corr resp="#ed.Vollmann"
+                                >,</corr></choice>
+                    </l>
+                    <l n="4"><w lemma="secta"><choice><orig>ſectam</orig><corr resp="#ed.Vollmann"
+                                    >sectam</corr></choice></w>
+                        <w lemma="noster"><choice><orig>noſtram</orig><corr resp="#ed.Vollmann"
+                                    >nostram</corr></choice></w>
+                        <w lemma="subeo"><choice><orig>ſubeunt</orig><corr resp="#ed.Vollmann"
+                                    >subeunt</corr></choice></w>
+                        <pc><choice><orig>.</orig><corr resp="#ed.Vollmann">,</corr></choice></pc>
+                        <w lemma="qui">quę</w> <w lemma="salus"><choice><orig>ſaluſ</orig><corr resp="#ed.Vollmann"
+                                    >salus</corr></choice></w>
+                        <w lemma="sum"><choice><orig>eſt</orig><corr resp="#ed.Vollmann"
+                                >est</corr></choice></w>
+                        <rhyme type="a">uitę</rhyme>.</l>
+                </lg>
+                <lg n="2" rhyme="bbbb">
+                    <l n="1"><lb n="6"/><gap atLeast="6" extent="character"/><hi rend="color:red">I</hi>n <w lemma="secta"
+                                    ><choice><orig>ſectam</orig><corr resp="#ed.Vollmann"
+                                    >sectam</corr></choice></w>
+                        <w lemma="noster"><choice><orig>nr̄a</orig><corr resp="#ed.Vollmann"
+                                    >nostra</corr></choice></w>
+                        <w lemma="scribo"><choice><orig>ſcriptum</orig><corr resp="#ed.Vollmann"
+                                    >scriptum</corr></choice></w>
+                        <w lemma="sum"><choice><orig>eſt</orig><corr resp="#ed.Vollmann"
+                                >est</corr></choice></w><pc resp="#ed.Vollmann">:</pc>
+                        <pc resp="#ed.Vollmann">›</pc><w lemma="omnis">omnia</w>
+                        <w lemma="probo">probate</w><pc resp="#ed.Vollmann">!‹</pc>. </l>
+                    <l n="2"><w lemma="vita">uitam</w>
+                        <lb n="7"/><w lemma="noster"><choice><orig>noſtram</orig><corr
+                                    resp="#ed.Vollmann">nostram</corr></choice></w>
+                        <w lemma="optimus">optime</w>
+                        <w lemma="tu">uos</w>
+                        <w lemma="considero"><choice><orig>ↄſiderate</orig><corr resp="#ed.Vollmann"
+                                    >considerate</corr></choice></w><choice><orig>.</orig><corr
+                                resp="#ed.Vollmann">,</corr></choice>
+                    </l>
+                    <l n="3"><w lemma="contra">contra</w>
+                        <w lemma="pravus">prauos</w>
+                        <w lemma="clericus">clericos</w>
+                        <w lemma="tu">uos</w>
+                        <lb n="8"/><w lemma="persevero"><choice><orig>ꝑſeuerate</orig><corr
+                                    resp="#ed.Vollmann"
+                                >perseuerate</corr></choice></w><pc><choice><orig>.</orig><corr
+                                resp="#ed.Vollmann">,</corr></choice></pc>
+                    </l>
+                    <l n="4"><w lemma="qui">qui</w> <w lemma="non">non</w> <w lemma="largus">large</w> <w lemma="tribuo">tribuunt</w> <w lemma="tu"><choice><orig>uobiſ</orig><corr resp="#ed.Vollmann"
+                        >uobis</corr></choice></w> <w lemma="in">in</w> <w lemma="caritas">karitate</w><pc><choice><orig>.</orig><corr
+                        resp="#ed.Vollmann">!</corr></choice></pc></l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>
