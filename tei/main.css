@@ -53,6 +53,10 @@ div {
     margin: 100px;
 }
 
+head {
+    display: block;
+}
+
 
 w {
     margin-left: 5px;
